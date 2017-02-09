@@ -2,6 +2,9 @@
 #define SEQINSVIEW_H
 
 #include <QWidget>
+#include<QMessageBox>
+#include <QElapsedTimer>
+#include<QDebug>
 
 namespace Ui {
 class seqInsView;
@@ -35,6 +38,8 @@ private slots:
 
 private:
     Ui::seqInsView *ui;
+    bool pause;//暂停标记
+    bool startSign;//开始标记
 };
 
 #endif // SEQINSVIEW_H

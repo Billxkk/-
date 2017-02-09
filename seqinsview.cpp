@@ -6,6 +6,8 @@ seqInsView::seqInsView(QWidget *parent) :
     ui(new Ui::seqInsView)
 {
     ui->setupUi(this);
+    pause =0;
+    startSign=0;
 }
 
 seqInsView::~seqInsView()
@@ -90,7 +92,7 @@ void seqInsView::refresh()
         QMessageBox::information(this,"错误","字符数目过多");
         return;
     }
-    else if(place<1 || place > 9)
+    else if(place<1 || place >len+1)
     {
         QMessageBox::information(this,"Error","Please check out the position!");
     }
@@ -103,29 +105,86 @@ void seqInsView::refresh()
             display(i+1,element.data()[i]);
         }
     }
-}
 
-void seqInsView::on_startButton_clicked()
-{
+        display(10+place,elem);
 
 }
 
-void seqInsView::on_pauseButton_clicked()
+void seqInsView::on_startButton_clicked()//开始按钮
 {
+    startSign =1;
 
+    int i;
+    QElapsedTimer t;
+    for(i=len;i>=place;i--)
+    {
+        while(pause){
+            t.start();
+            while(t.elapsed()<1000)
+            {
+                QCoreApplication::processEvents();
+            }
+        }
+
+        t.start();
+        while(t.elapsed()<1000)
+        {
+            QCoreApplication::processEvents();
+        }
+        ui->currentlineEdit->setText(QString::number(i));
+        display(i+1,element.data()[i-1]);
+
+    }
+    t.start();
+    while(t.elapsed()<1000)
+    {
+        QCoreApplication::processEvents();
+    }
+    ui->currentlineEdit->setText("Complete!");
+    //需要添加箭头的动态变化过程
+
+
+
+    display(place,elem);
+    display(10+place,NULL);
+    startSign =0;
 }
 
-void seqInsView::on_frashButton_clicked()
+void seqInsView::on_pauseButton_clicked()//暂停按钮
 {
+    if(!startSign)//演示未开始时暂停按钮无效
+        return;
+    if(!pause)
+    {
+        qDebug("if_1");
 
+        pause=1;
+    }
+    else
+    {
+        qDebug("else_2");
+        pause=0;
+    }
 }
 
-void seqInsView::on_explainButton_clicked()
+void seqInsView::on_frashButton_clicked()//复位按钮
 {
+    int i;
+    ui->currentlineEdit->setText(QString::number(len));
+    for(i=0;i<len;i++)
+    {
+        display(i+1,element.data()[i]);
+    }
+    display(len+1,NULL);
+    display(10+place,elem);
+}
 
+void seqInsView::on_explainButton_clicked()//说明按钮
+{
+        QMessageBox::information(this,"说明","test information 测试 \n 转行");
 }
 
 void seqInsView::on_backButton_clicked()
 {
-
+    this->close();
 }
