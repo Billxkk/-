@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Mon Feb 6 12:22:41 2017
+** Created: Thu Feb 9 18:29:45 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -48,7 +48,7 @@ public:
         MainWindow->resize(451, 445);
         MainWindow->setMaximumSize(QSize(451, 469));
         QIcon icon;
-        icon.addFile(QString::fromUtf8("../../codeblocks/num6/1.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8("C:/Users/Administrator/Pictures/bitbug_favicon.ico"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindow->setWindowIcon(icon);
         aboutAction = new QAction(MainWindow);
         aboutAction->setObjectName(QString::fromUtf8("aboutAction"));

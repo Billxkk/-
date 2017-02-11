@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../codeblocks/num6/1.ico</normaloff>../../codeblocks/num6/1.ico</iconset>
+    <normaloff>C:/Users/Administrator/Pictures/bitbug_favicon.ico</normaloff>C:/Users/Administrator/Pictures/bitbug_favicon.ico</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QTabWidget" name="tabWidget">

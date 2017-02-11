@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'seqinsview.ui'
 **
-** Created: Thu Feb 9 16:31:32 2017
+** Created: Sat Feb 11 23:55:41 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -14,6 +14,7 @@
 #include <QtGui/QAction>
 #include <QtGui/QApplication>
 #include <QtGui/QButtonGroup>
+#include <QtGui/QDockWidget>
 #include <QtGui/QGroupBox>
 #include <QtGui/QHBoxLayout>
 #include <QtGui/QHeaderView>
@@ -63,6 +64,8 @@ public:
     QLineEdit *lineEdit_20;
     QLineEdit *currentlineEdit;
     QLabel *label;
+    QDockWidget *dockWidget;
+    QWidget *dockWidgetContents;
 
     void setupUi(QWidget *seqInsView)
     {
@@ -121,7 +124,7 @@ public:
 
         groupBox = new QGroupBox(seqInsView);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(10, 120, 601, 271));
+        groupBox->setGeometry(QRect(10, 120, 601, 231));
         groupBox->setMinimumSize(QSize(0, 0));
         groupBox->setMaximumSize(QSize(840, 300));
         QFont font;
@@ -294,10 +297,17 @@ public:
 "font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         currentlineEdit = new QLineEdit(groupBox);
         currentlineEdit->setObjectName(QString::fromUtf8("currentlineEdit"));
-        currentlineEdit->setGeometry(QRect(160, 200, 113, 21));
+        currentlineEdit->setGeometry(QRect(150, 180, 113, 21));
         label = new QLabel(groupBox);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(60, 200, 101, 16));
+        label->setGeometry(QRect(50, 180, 101, 16));
+        dockWidget = new QDockWidget(seqInsView);
+        dockWidget->setObjectName(QString::fromUtf8("dockWidget"));
+        dockWidget->setGeometry(QRect(10, 360, 601, 311));
+        dockWidget->setFloating(false);
+        dockWidgetContents = new QWidget();
+        dockWidgetContents->setObjectName(QString::fromUtf8("dockWidgetContents"));
+        dockWidget->setWidget(dockWidgetContents);
 
         retranslateUi(seqInsView);
 
@@ -317,6 +327,7 @@ public:
         lineEdit_1->setText(QString());
         lineEdit_7->setText(QString());
         label->setText(QApplication::translate("seqInsView", "\345\275\223\345\211\215\347\247\273\345\212\250\344\275\215\346\225\260:", 0, QApplication::UnicodeUTF8));
+        dockWidget->setWindowTitle(QApplication::translate("seqInsView", "\347\256\227\346\263\225\345\214\272", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

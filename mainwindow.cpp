@@ -61,7 +61,7 @@ void MainWindow::on_seqInsButton_clicked()//顺序表插入按钮 点击
     seqInsview->place = place;
     seqInsview->elem=elem;
     seqInsview->show();
-    seqInsview->refresh();
+
 
 }
 

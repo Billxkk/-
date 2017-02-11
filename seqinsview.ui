@@ -131,7 +131,7 @@
      <x>10</x>
      <y>120</y>
      <width>601</width>
-     <height>271</height>
+     <height>231</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -710,8 +710,8 @@ font: 10pt &quot;微软雅黑&quot;;</string>
    <widget class="QLineEdit" name="currentlineEdit">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>200</y>
+      <x>150</x>
+      <y>180</y>
       <width>113</width>
       <height>21</height>
      </rect>
@@ -720,8 +720,8 @@ font: 10pt &quot;微软雅黑&quot;;</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>200</y>
+      <x>50</x>
+      <y>180</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -730,6 +730,23 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <string>当前移动位数:</string>
     </property>
    </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>601</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="windowTitle">
+    <string>算法区</string>
+   </property>
+   <widget class="QWidget" name="dockWidgetContents"/>
   </widget>
  </widget>
  <resources/>
