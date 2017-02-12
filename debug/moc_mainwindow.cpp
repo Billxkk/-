@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created: Sat Feb 11 23:52:12 2017
+** Created: Sun Feb 12 13:23:17 2017
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_MainWindow[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+      12,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -36,6 +36,13 @@ static const uint qt_meta_data_MainWindow[] = {
       49,   11,   11,   11, 0x08,
       75,   11,   11,   11, 0x08,
      101,   11,   11,   11, 0x08,
+     127,   11,   11,   11, 0x08,
+     156,   11,   11,   11, 0x08,
+     183,   11,   11,   11, 0x08,
+     210,   11,   11,   11, 0x08,
+     240,   11,   11,   11, 0x08,
+     268,   11,   11,   11, 0x08,
+     298,   11,   11,   11, 0x08,
 
        0        // eod
 };
@@ -45,6 +52,13 @@ static const char qt_meta_stringdata_MainWindow[] = {
     "helpAction_slot()\0on_seqDelButton_clicked()\0"
     "on_seqInsButton_clicked()\0"
     "on_seqUniButton_clicked()\0"
+    "on_linkCreatButton_clicked()\0"
+    "on_linkInsButton_clicked()\0"
+    "on_linkDelButton_clicked()\0"
+    "on_enterStackButton_clicked()\0"
+    "on_outStackButton_clicked()\0"
+    "on_enterQueueButton_clicked()\0"
+    "on_outQueueButton_clicked()\0"
 };
 
 void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -58,6 +72,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 2: _t->on_seqDelButton_clicked(); break;
         case 3: _t->on_seqInsButton_clicked(); break;
         case 4: _t->on_seqUniButton_clicked(); break;
+        case 5: _t->on_linkCreatButton_clicked(); break;
+        case 6: _t->on_linkInsButton_clicked(); break;
+        case 7: _t->on_linkDelButton_clicked(); break;
+        case 8: _t->on_enterStackButton_clicked(); break;
+        case 9: _t->on_outStackButton_clicked(); break;
+        case 10: _t->on_enterQueueButton_clicked(); break;
+        case 11: _t->on_outQueueButton_clicked(); break;
         default: ;
         }
     }
@@ -96,9 +117,9 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 12)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 12;
     }
     return _id;
 }

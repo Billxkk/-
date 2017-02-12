@@ -13,70 +13,123 @@ seqInsView::seqInsView(QWidget *parent) :
     defaultColor.setColor(QPalette::WindowText,Qt::black);//默认颜色
     workingColor.setColor(QPalette::WindowText,Qt::red);//执行时颜色
 
+    currentColor.setColor(QPalette::WindowText,Qt::black);
+    elseColor.setColor(QPalette::WindowText,Qt::white);
+
+    ui->frashButton->setEnabled(false);
+    ui->pauseButton->setEnabled(false);
+
+
     num1 = new QLabel(ui->dockWidget);
     num1->setText("ListIns(Sqlist &v,int i,Elem b)");
-    num1->setGeometry(10,20,1000,15);
+    num1->setGeometry(10,25,1000,15);
     num1->setFont(ft);
 
     num2 = new QLabel(ui->dockWidget);
     num2->setText("{");
-    num2->setGeometry(10,35,1000,15);
+    num2->setGeometry(10,40,1000,15);
     num2->setFont(ft);
 
     num3 = new QLabel(ui->dockWidget);
     num3->setText("    if(i<1 || i>v.last+1)");
-    num3->setGeometry(10,50,1000,15);
+    num3->setGeometry(10,55,1000,15);
     num3->setFont(ft);
 
     num4 = new QLabel(ui->dockWidget);
     num4->setText("        return ERROR;");
-    num4->setGeometry(10,65,1000,15);
+    num4->setGeometry(10,70,1000,15);
     num4->setFont(ft);
 
     num5 = new QLabel(ui->dockWidget);
     num5->setText("    if(v.last >= maxlen)");
-    num5->setGeometry(10,80,1000,15);
+    num5->setGeometry(10,85,1000,15);
     num5->setFont(ft);
 
     num6 = new QLabel(ui->dockWidget);
     num6->setText("      error(\"overflow\")");
-    num6->setGeometry(10,95,1000,15);
+    num6->setGeometry(10,100,1000,15);
     num6->setFont(ft);
 
     num7= new QLabel(ui->dockWidget);
     num7->setText("    else{   for(j=v.elem[v.last];j>=i;--j)");
-    num7->setGeometry(10,110,1000,15);
+    num7->setGeometry(10,115,1000,15);
     num7->setFont(ft);
 
     num8 = new QLabel(ui->dockWidget);
     num8->setText("                   v.elem[j+1]=v.elem[j];");
-    num8->setGeometry(10,125,1000,15);
+    num8->setGeometry(10,130,1000,15);
     num8->setFont(ft);
 
     num9 = new QLabel(ui->dockWidget);
     num9->setText("                v.elem[i]=b;");
-    num9->setGeometry(10,140,1000,15);
+    num9->setGeometry(10,145,1000,15);
     num9->setFont(ft);
 
     num10= new QLabel(ui->dockWidget);
     num10->setText("               ++v.last;");
-    num10->setGeometry(10,155,1000,15);
+    num10->setGeometry(10,160,1000,15);
     num10->setFont(ft);
 
     num11= new QLabel(ui->dockWidget);
     num11->setText("               return OK;");
-    num11->setGeometry(10,170,1000,15);
+    num11->setGeometry(10,175,1000,15);
     num11->setFont(ft);
 
     num12= new QLabel(ui->dockWidget);
     num12->setText("             }");
-    num12->setGeometry(10,185,1000,15);
+    num12->setGeometry(10,190,1000,15);
     num12->setFont(ft);
 
     num13 = new QLabel(ui->dockWidget);
     num13->setText("}");
-    num13->setGeometry(10,200,1000,15);
+    num13->setGeometry(10,205,1000,15);
     num13->setFont(ft);
+
+    //箭头
+    the1 = new QLabel(ui->groupBox);
+    the1->setText("--->");
+    the1->setGeometry(43,40,30,25);
+    the1->setPalette(elseColor);
+
+    the2 = new QLabel(ui->groupBox);
+    the2->setText("--->");
+    the2->setGeometry(103,40,30,25);
+    the2->setPalette(elseColor);
+
+    the3 = new QLabel(ui->groupBox);
+    the3->setText("--->");
+    the3->setGeometry(163,40,35,25);
+    the3->setPalette(elseColor);
+
+    the4 = new QLabel(ui->groupBox);
+    the4->setText("--->");
+    the4->setGeometry(228,40,31,25);
+    the4->setPalette(elseColor);
+
+    the5 = new QLabel(ui->groupBox);
+    the5->setText("--->");
+    the5->setGeometry(289,40,31,25);
+    the5->setPalette(elseColor);
+
+    the6 = new QLabel(ui->groupBox);
+    the6->setText("--->");
+    the6->setGeometry(350,40,30,25);
+    the6->setPalette(elseColor);
+
+    the7 = new QLabel(ui->groupBox);
+    the7->setText("--->");
+    the7->setGeometry(410,40,30,25);
+    the7->setPalette(elseColor);
+
+    the8 = new QLabel(ui->groupBox);
+    the8->setText("--->");
+    the8->setGeometry(470,40,30,25);
+    the8->setPalette(elseColor);
+
+    the9 = new QLabel(ui->groupBox);
+    the9->setText("--->");
+    the9->setGeometry(530,40,30,25);
+    the9->setPalette(elseColor);
 }
 
 seqInsView::~seqInsView()
@@ -153,6 +206,122 @@ void seqInsView::display(int pos,QString ele)
     }
 }
 
+void seqInsView::animation(int i)//箭头变化
+{
+    switch(i)
+    {
+    case 1:
+        the1->setPalette(currentColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 2:
+        the1->setPalette(elseColor);
+        the2->setPalette(currentColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 3:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(currentColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 4:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(currentColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 5:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(currentColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 6:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(currentColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 7:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(currentColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+        break;
+    case 8:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(currentColor);
+        the9->setPalette(elseColor);
+        break;
+    case 9:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(currentColor);
+        break;
+    default:
+        the1->setPalette(elseColor);
+        the2->setPalette(elseColor);
+        the3->setPalette(elseColor);
+        the4->setPalette(elseColor);
+        the5->setPalette(elseColor);
+        the6->setPalette(elseColor);
+        the7->setPalette(elseColor);
+        the8->setPalette(elseColor);
+        the9->setPalette(elseColor);
+    }
+}
+
 void seqInsView::refresh()
 {
     len=element.size();
@@ -196,11 +365,15 @@ void seqInsView::refresh()
 
         display(10+place,elem);
 
+        animation(0);
+
 }
 
 void seqInsView::on_startButton_clicked()//开始按钮
 {
+    ui->startButton->setEnabled(false);
     refresh();
+    ui->pauseButton->setEnabled(true);
     startSign =1;
     num7->setPalette(workingColor);
         sleepOneSecond();
@@ -209,21 +382,14 @@ void seqInsView::on_startButton_clicked()//开始按钮
     for(i=len;i>=place;i--)
     {
         while(pause){               //检测是否暂停
-            t.start();
-            while(t.elapsed()<1000)
-            {
-                QCoreApplication::processEvents();
-            }
+            sleepOneSecond();
         }
        num7->setPalette(defaultColor);
        num8->setPalette(workingColor);
 
-        t.start();
-        while(t.elapsed()<1000)
-        {
-            QCoreApplication::processEvents();
-        }
+        sleepOneSecond();
         ui->currentlineEdit->setText(QString::number(i));
+        animation(i);
         display(i+1,element.data()[i-1]);
 
         num8->setPalette(defaultColor);
@@ -233,11 +399,8 @@ void seqInsView::on_startButton_clicked()//开始按钮
     }
     num7->setPalette(defaultColor);
     num9->setPalette(workingColor);
-    t.start();
-    while(t.elapsed()<1000)
-    {
-        QCoreApplication::processEvents();
-    }
+    sleepOneSecond();
+       animation(0);
     display(place,elem);
     display(10+place,NULL);
     num9->setPalette(defaultColor);
@@ -246,12 +409,14 @@ void seqInsView::on_startButton_clicked()//开始按钮
         sleepOneSecond();
     num10->setPalette(defaultColor);
     num11->setPalette(workingColor);
+
         sleepOneSecond();
     num11->setPalette(defaultColor);
 
     ui->currentlineEdit->setText("Complete!");
-    //需要添加箭头的动态变化过程
 
+    ui->pauseButton->setEnabled(false);
+    ui->frashButton->setEnabled(true);
 
 
     startSign =0;
@@ -278,12 +443,15 @@ void seqInsView::on_frashButton_clicked()//复位按钮
 {
     int i;
     ui->currentlineEdit->setText(QString::number(len));
+    animation(0);
     for(i=0;i<len;i++)
     {
         display(i+1,element.data()[i]);
     }
     display(len+1,NULL);
     display(10+place,elem);
+    ui->startButton->setEnabled(true);
+    ui->frashButton->setEnabled(false);
 }
 
 void seqInsView::on_explainButton_clicked()//说明按钮

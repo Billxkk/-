@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'seqinsview.h'
 **
-** Created: Sat Feb 11 23:52:14 2017
+** Created: Sun Feb 12 13:23:19 2017
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

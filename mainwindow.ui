@@ -52,33 +52,33 @@
      <widget class="QPushButton" name="seqInsButton">
       <property name="geometry">
        <rect>
-        <x>204</x>
+        <x>200</x>
         <y>50</y>
         <width>111</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
-       <string>顺序表插入</string>
+       <string>顺序表插入结点</string>
       </property>
      </widget>
      <widget class="QPushButton" name="seqDelButton">
       <property name="geometry">
        <rect>
-        <x>204</x>
+        <x>200</x>
         <y>130</y>
         <width>111</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
-       <string>顺序表删除</string>
+       <string>顺序表删除结点</string>
       </property>
      </widget>
      <widget class="QPushButton" name="seqUniButton">
       <property name="geometry">
        <rect>
-        <x>204</x>
+        <x>200</x>
         <y>210</y>
         <width>111</width>
         <height>23</height>
@@ -92,6 +92,117 @@
     <widget class="QWidget" name="linkedList_tab">
      <attribute name="title">
       <string>链表</string>
+     </attribute>
+     <widget class="QPushButton" name="linkCreatButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>创建链表</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="linkInsButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>130</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>链表插入结点</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="linkDelButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>210</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>链表删除结点</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="stack_tab">
+     <attribute name="title">
+      <string>栈</string>
+     </attribute>
+     <widget class="QPushButton" name="enterStackButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>入栈</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="outStackButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>130</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>出栈</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="queue_tab">
+     <attribute name="title">
+      <string>队列</string>
+     </attribute>
+     <widget class="QPushButton" name="enterQueueButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>入队</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="outQueueButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>130</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>出队</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tree_tab">
+     <attribute name="title">
+      <string>树</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="graph_tab">
+     <attribute name="title">
+      <string>图</string>
      </attribute>
     </widget>
    </widget>

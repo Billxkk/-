@@ -38,6 +38,14 @@ private slots:
     void on_seqInsButton_clicked();//顺序表插入
     void on_seqUniButton_clicked();//顺序表合并
 
+
+    void on_linkCreatButton_clicked();
+    void on_linkInsButton_clicked();
+    void on_linkDelButton_clicked();
+    void on_enterStackButton_clicked();
+    void on_outStackButton_clicked();
+    void on_enterQueueButton_clicked();
+    void on_outQueueButton_clicked();
 };
 
 #endif // MAINWINDOW_H

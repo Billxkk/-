@@ -21,6 +21,7 @@ public:
     void refresh();
     void display(int,QString);
     void sleepOneSecond();
+    void animation(int);//控制箭头的显示
 
     QString  element;//原始字符组
     int place;//插入位置
@@ -62,8 +63,17 @@ private:
     QPalette workingColor;//执行时颜色
     QPalette defaultColor;//默认颜色
 
-
-
+    QLabel *the1;
+    QLabel *the2;
+    QLabel *the3;
+    QLabel *the4;
+    QLabel *the5;
+    QLabel *the6;
+    QLabel *the7;
+    QLabel *the8;
+    QLabel *the9;
+    QPalette currentColor;//当前箭头颜色
+    QPalette elseColor;//其他箭头颜色
 
 };
 
