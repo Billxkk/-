@@ -14,10 +14,22 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    seqinsview.cpp
+    seqinsview.cpp \
+    sequniview.cpp \
+    seqdelview.cpp \
+    linkcreaatnodehead.cpp
 
 HEADERS  += mainwindow.h \
-    seqinsview.h
+    seqinsview.h \
+    sequniview.h \
+    seqdelview.h \
+    linkcreaatnodehead.h
 
 FORMS    += mainwindow.ui \
-    seqinsview.ui
+    seqinsview.ui \
+    sequniview.ui \
+    seqdelview.ui \
+    linkcreaatnodehead.ui
+
+RESOURCES += \
+    img.qrc

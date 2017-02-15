@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\seqinsview.o
+./release\sequniview.o
+./release\seqdelview.o
+./release\moc_mainwindow.o
+./release\moc_seqinsview.o
+./release\moc_sequniview.o
+./release\moc_seqdelview.o
+./release\qrc_img.o
+);

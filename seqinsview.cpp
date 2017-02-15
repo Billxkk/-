@@ -7,6 +7,7 @@ seqInsView::seqInsView(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setWindowTitle("顺序表插入");
+    this->setWindowIcon(QIcon(":/img/bitbug_favicon.ico"));
     pause =0;
     startSign=0;
     ft.setPointSize(12);//默认算法区字符大小
@@ -21,7 +22,7 @@ seqInsView::seqInsView(QWidget *parent) :
 
 
     num1 = new QLabel(ui->dockWidget);
-    num1->setText("ListIns(Sqlist &v,int i,Elem b)");
+    num1->setText("status ListIns(Sqlist &v,int i,Elem b)");
     num1->setGeometry(10,25,1000,15);
     num1->setFont(ft);
 
@@ -46,7 +47,7 @@ seqInsView::seqInsView(QWidget *parent) :
     num5->setFont(ft);
 
     num6 = new QLabel(ui->dockWidget);
-    num6->setText("      error(\"overflow\")");
+    num6->setText("      error(\"overflow\");");
     num6->setGeometry(10,100,1000,15);
     num6->setFont(ft);
 
@@ -135,6 +136,72 @@ seqInsView::seqInsView(QWidget *parent) :
 seqInsView::~seqInsView()
 {
     delete ui;
+    if(!num1){delete num1;}
+    if(!num2){
+        delete num2;
+    }
+    if(!num3){
+        delete num3;
+    }
+    if(!num4){
+        delete num4;
+    }
+    if(!num5){
+        delete num5;
+    }
+    if(!num6){
+        delete num6;
+    }
+    if(!num7){
+        delete num7;
+    }
+    if(!num8){
+        delete num8;
+    }
+    if(!num9){
+        delete num9;
+    }
+    if(!num10){
+        delete num10;
+    }
+    if(!num11){
+        delete num11;
+    }
+    if(!num12){
+        delete num12;
+    }
+    if(!num13){
+        delete num13;
+    }
+
+    if(!the1){
+        delete the1;
+    }
+    if(!the2){
+        delete the2;
+    }
+    if(!the3){
+        delete the3;
+    }
+    if(!the4){
+        delete the4;
+    }
+    if(!the5){
+        delete the5;
+    }
+    if(!the6){
+        delete the6;
+    }
+    if(!the7){
+        delete the7;
+    }
+    if(!the8){
+        delete the8;
+    }
+    if(!the9){
+        delete the9;
+    }
+
 }
 
 void seqInsView::display(int pos,QString ele)

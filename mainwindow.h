@@ -7,6 +7,9 @@
 #include<QWidget>
 
 #include"seqinsview.h"
+#include"sequniview.h"
+#include"seqdelview.h"
+#include"linkcreaatnodehead.h"
 
 
 namespace Ui {
@@ -27,7 +30,8 @@ private:
     Ui::MainWindow *ui;
 
     seqInsView *seqInsview;
-
+    seqUniView *seqUniview;
+    seqDelView *seqDelview;
 
 
 private slots:

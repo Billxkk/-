@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\seqinsview.o
+./debug\sequniview.o
+./debug\seqdelview.o
+./debug\moc_mainwindow.o
+./debug\moc_seqinsview.o
+./debug\moc_sequniview.o
+./debug\moc_seqdelview.o
+./debug\qrc_img.o
+);

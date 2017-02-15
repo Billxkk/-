@@ -14,6 +14,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setWindowIcon(QIcon(":/img/bitbug_favicon.ico"));
 
     QObject::connect(ui->aboutAction,SIGNAL(triggered()),this,SLOT(aboutAction_slot()));
     QObject::connect(ui->helpAction,SIGNAL(triggered()),this,SLOT(helpAction_slot()));
@@ -24,6 +25,7 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     delete ui;
+
 
 }
 
@@ -87,22 +89,46 @@ void MainWindow::on_seqDelButton_clicked()//顺序表删除按钮 点击
                                             "asdfqwer",
                                             &ok);
     if(!ok){
-        qDebug("!ok");
         return;
     }
-    int place = QInputDialog::getInteger(this,
+    int position = QInputDialog::getInteger(this,
                                          tr("删除位置"),
                                          tr("输入删除位置"),3,0,Origin.size(),1,&ok);
     if(!ok){
-        qDebug("!ok");
         return;
     }
-
+    seqDelview=new seqDelView();
+    seqDelview->elementdel=Origin;
+    seqDelview->position=position;
+    seqDelview->len=Origin.size()-1;
+    seqDelview->show();
 }
 
 void MainWindow::on_seqUniButton_clicked()//顺序表合并按钮 点击
 {
-
+    bool ok;
+    QString OriginOne=QInputDialog::getText(this,
+                                         tr("顺序表"),
+                                         tr("请输入第一组数据"),
+                                         QLineEdit::Normal,
+                                         "13579",
+                                         &ok);
+    if(!ok){
+        return;
+    }
+    QString OriginTwo=QInputDialog::getText(this,
+                                         tr("顺序表"),
+                                         tr("请输入第一组数据"),
+                                         QLineEdit::Normal,
+                                         "2468",
+                                         &ok);
+    if(!ok){
+        return;
+    }
+    seqUniview = new seqUniView;
+    seqUniview->elementOne=OriginOne;
+    seqUniview->elementTwo=OriginTwo;
+    seqUniview->show();
 }
 
 
