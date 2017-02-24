@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'sequniview.ui'
 **
-** Created: Tue Feb 14 23:25:41 2017
+** Created: Fri Feb 24 20:07:26 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -485,7 +485,7 @@ public:
     void retranslateUi(QMainWindow *seqUniView)
     {
         seqUniView->setWindowTitle(QApplication::translate("seqUniView", "MainWindow", 0, QApplication::UnicodeUTF8));
-        groupBox->setTitle(QApplication::translate("seqUniView", "\347\247\273\345\212\250\350\277\207\347\250\213\346\274\224\347\244\272:", 0, QApplication::UnicodeUTF8));
+        groupBox->setTitle(QApplication::translate("seqUniView", "\346\274\224\347\244\272\345\214\272", 0, QApplication::UnicodeUTF8));
         lineEdit_1->setText(QString());
         lineEdit_7->setText(QString());
         label->setText(QApplication::translate("seqUniView", "<html><head/><body><p><span style=\" font-size:11pt; font-weight:600; font-style:italic; color:#ff0000;\">\345\275\223\345\211\215\346\257\224\350\276\203:</span></p></body></html>", 0, QApplication::UnicodeUTF8));

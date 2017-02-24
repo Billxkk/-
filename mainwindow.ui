@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>451</width>
-    <height>445</height>
+    <height>469</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -26,14 +26,14 @@
       <x>0</x>
       <y>0</y>
       <width>451</width>
-      <height>421</height>
+      <height>441</height>
      </rect>
     </property>
     <property name="tabShape">
      <enum>QTabWidget::Triangular</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <property name="elideMode">
      <enum>Qt::ElideNone</enum>
@@ -164,30 +164,17 @@
      <attribute name="title">
       <string>队列</string>
      </attribute>
-     <widget class="QPushButton" name="enterQueueButton">
+     <widget class="QPushButton" name="circleQueueButton">
       <property name="geometry">
        <rect>
-        <x>200</x>
-        <y>50</y>
-        <width>111</width>
+        <x>220</x>
+        <y>90</y>
+        <width>141</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
-       <string>入队</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="outQueueButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>130</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>出队</string>
+       <string>循环队列 入队/出队</string>
       </property>
      </widget>
     </widget>
@@ -195,11 +182,102 @@
      <attribute name="title">
       <string>树</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>401</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>树的遍历</string>
+      </property>
+      <widget class="QPushButton" name="proButton">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>先序</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MidButton">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>30</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>中序</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="rearButton">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>30</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>后序</string>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="graph_tab">
      <attribute name="title">
       <string>图</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>421</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>图的遍历</string>
+      </property>
+      <widget class="QPushButton" name="dfsButton">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>30</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>深度优先搜索</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bfsButton">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>30</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>广度优先搜索</string>
+       </property>
+      </widget>
+     </widget>
     </widget>
    </widget>
   </widget>
@@ -233,7 +311,6 @@
    </widget>
    <addaction name="option"/>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
   <action name="aboutAction">
    <property name="text">
     <string>关于</string>

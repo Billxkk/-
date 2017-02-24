@@ -1,6 +1,7 @@
 #ifndef SEQINSVIEW_H
 #define SEQINSVIEW_H
 
+#include <QMainWindow>
 #include <QWidget>
 #include<QMessageBox>
 #include <QElapsedTimer>
@@ -11,7 +12,7 @@ namespace Ui {
 class seqInsView;
 }
 
-class seqInsView : public QWidget
+class seqInsView : public QMainWindow
 {
     Q_OBJECT
     

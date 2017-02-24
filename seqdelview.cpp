@@ -7,6 +7,9 @@ seqDelView::seqDelView(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setWindowTitle("顺序表删除");
+        this->setWindowIcon(QIcon(":/img/bitbug_favicon.ico"));
+        this->setStyleSheet("QMainWindow{background-image: url(:/img/timg7.jpg)}");
+
     pause =0;
     startSign =0;
     ft.setPointSize(12);//默认算法区字符大小

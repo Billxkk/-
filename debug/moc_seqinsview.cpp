@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'seqinsview.h'
 **
-** Created: Sun Feb 12 13:23:19 2017
+** Created: Fri Feb 24 20:12:48 2017
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -70,7 +70,7 @@ const QMetaObjectExtraData seqInsView::staticMetaObjectExtraData = {
 };
 
 const QMetaObject seqInsView::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_seqInsView,
+    { &QMainWindow::staticMetaObject, qt_meta_stringdata_seqInsView,
       qt_meta_data_seqInsView, &staticMetaObjectExtraData }
 };
 
@@ -88,12 +88,12 @@ void *seqInsView::qt_metacast(const char *_clname)
     if (!_clname) return 0;
     if (!strcmp(_clname, qt_meta_stringdata_seqInsView))
         return static_cast<void*>(const_cast< seqInsView*>(this));
-    return QWidget::qt_metacast(_clname);
+    return QMainWindow::qt_metacast(_clname);
 }
 
 int seqInsView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QWidget::qt_metacall(_c, _id, _a);
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {

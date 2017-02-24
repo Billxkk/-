@@ -7,6 +7,8 @@ seqUniView::seqUniView(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setWindowTitle("Ë³Ðò±íºÏ²¢");
+        this->setWindowIcon(QIcon(":/img/bitbug_favicon.ico"));
+            this->setStyleSheet("QMainWindow{background-image: url(:/img/timg7.jpg)}");
     pause=0;
     startSign=0;
     currentColor.setColor(QPalette::WindowText,Qt::black);

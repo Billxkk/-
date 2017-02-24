@@ -2,12 +2,14 @@
 #include "ui_seqinsview.h"
 
 seqInsView::seqInsView(QWidget *parent) :
-    QWidget(parent),
+    QMainWindow(parent),
     ui(new Ui::seqInsView)
 {
     ui->setupUi(this);
     this->setWindowTitle("顺序表插入");
     this->setWindowIcon(QIcon(":/img/bitbug_favicon.ico"));
+        this->setStyleSheet("QMainWindow{background-image: url(:/img/timg7.jpg)}");
+
     pause =0;
     startSign=0;
     ft.setPointSize(12);//默认算法区字符大小

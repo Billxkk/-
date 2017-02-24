@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'seqinsview.ui'
 **
-** Created: Tue Feb 14 23:25:41 2017
+** Created: Fri Feb 24 20:07:26 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -452,7 +452,7 @@ public:
         frashButton->setText(QApplication::translate("seqInsView", "\345\244\215\344\275\215", 0, QApplication::UnicodeUTF8));
         explainButton->setText(QApplication::translate("seqInsView", "\350\257\264\346\230\216", 0, QApplication::UnicodeUTF8));
         backButton->setText(QApplication::translate("seqInsView", "\351\200\200\345\207\272", 0, QApplication::UnicodeUTF8));
-        groupBox->setTitle(QApplication::translate("seqInsView", "\347\247\273\345\212\250\350\277\207\347\250\213\346\274\224\347\244\272:", 0, QApplication::UnicodeUTF8));
+        groupBox->setTitle(QApplication::translate("seqInsView", "\346\274\224\347\244\272\345\214\272", 0, QApplication::UnicodeUTF8));
         lineEdit_1->setText(QString());
         lineEdit_7->setText(QString());
         label->setText(QApplication::translate("seqInsView", "\345\275\223\345\211\215\347\247\273\345\212\250\344\275\215\346\225\260:", 0, QApplication::UnicodeUTF8));

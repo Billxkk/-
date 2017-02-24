@@ -1,5 +1,10 @@
 <RCC>
     <qresource prefix="/">
         <file>img/bitbug_favicon.ico</file>
+        <file>img/95c58PICEZC.jpg</file>
+        <file>img/CoverBackground1.jpg</file>
+        <file>img/timg7.jpg</file>
+        <file>img/img1.jpg</file>
+        <file>img/img2.jpg</file>
     </qresource>
 </RCC>

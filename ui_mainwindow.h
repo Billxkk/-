@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Sun Feb 12 15:48:11 2017
+** Created: Fri Feb 24 20:07:26 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -14,12 +14,12 @@
 #include <QtGui/QAction>
 #include <QtGui/QApplication>
 #include <QtGui/QButtonGroup>
+#include <QtGui/QGroupBox>
 #include <QtGui/QHeaderView>
 #include <QtGui/QMainWindow>
 #include <QtGui/QMenu>
 #include <QtGui/QMenuBar>
 #include <QtGui/QPushButton>
-#include <QtGui/QStatusBar>
 #include <QtGui/QTabWidget>
 #include <QtGui/QWidget>
 
@@ -44,19 +44,24 @@ public:
     QPushButton *enterStackButton;
     QPushButton *outStackButton;
     QWidget *queue_tab;
-    QPushButton *enterQueueButton;
-    QPushButton *outQueueButton;
+    QPushButton *circleQueueButton;
     QWidget *tree_tab;
+    QGroupBox *groupBox;
+    QPushButton *proButton;
+    QPushButton *MidButton;
+    QPushButton *rearButton;
     QWidget *graph_tab;
+    QGroupBox *groupBox_2;
+    QPushButton *dfsButton;
+    QPushButton *bfsButton;
     QMenuBar *menuBar;
     QMenu *option;
-    QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(451, 445);
+        MainWindow->resize(451, 469);
         MainWindow->setMaximumSize(QSize(451, 469));
         aboutAction = new QAction(MainWindow);
         aboutAction->setObjectName(QString::fromUtf8("aboutAction"));
@@ -66,7 +71,7 @@ public:
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         tabWidget = new QTabWidget(centralWidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(0, 0, 451, 421));
+        tabWidget->setGeometry(QRect(0, 0, 451, 441));
         tabWidget->setTabShape(QTabWidget::Triangular);
         tabWidget->setElideMode(Qt::ElideNone);
         tabWidget->setTabsClosable(false);
@@ -105,18 +110,36 @@ public:
         tabWidget->addTab(stack_tab, QString());
         queue_tab = new QWidget();
         queue_tab->setObjectName(QString::fromUtf8("queue_tab"));
-        enterQueueButton = new QPushButton(queue_tab);
-        enterQueueButton->setObjectName(QString::fromUtf8("enterQueueButton"));
-        enterQueueButton->setGeometry(QRect(200, 50, 111, 23));
-        outQueueButton = new QPushButton(queue_tab);
-        outQueueButton->setObjectName(QString::fromUtf8("outQueueButton"));
-        outQueueButton->setGeometry(QRect(200, 130, 111, 23));
+        circleQueueButton = new QPushButton(queue_tab);
+        circleQueueButton->setObjectName(QString::fromUtf8("circleQueueButton"));
+        circleQueueButton->setGeometry(QRect(220, 90, 141, 23));
         tabWidget->addTab(queue_tab, QString());
         tree_tab = new QWidget();
         tree_tab->setObjectName(QString::fromUtf8("tree_tab"));
+        groupBox = new QGroupBox(tree_tab);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setGeometry(QRect(20, 30, 401, 71));
+        proButton = new QPushButton(groupBox);
+        proButton->setObjectName(QString::fromUtf8("proButton"));
+        proButton->setGeometry(QRect(30, 30, 75, 23));
+        MidButton = new QPushButton(groupBox);
+        MidButton->setObjectName(QString::fromUtf8("MidButton"));
+        MidButton->setGeometry(QRect(160, 30, 75, 23));
+        rearButton = new QPushButton(groupBox);
+        rearButton->setObjectName(QString::fromUtf8("rearButton"));
+        rearButton->setGeometry(QRect(290, 30, 75, 23));
         tabWidget->addTab(tree_tab, QString());
         graph_tab = new QWidget();
         graph_tab->setObjectName(QString::fromUtf8("graph_tab"));
+        groupBox_2 = new QGroupBox(graph_tab);
+        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setGeometry(QRect(10, 20, 421, 71));
+        dfsButton = new QPushButton(groupBox_2);
+        dfsButton->setObjectName(QString::fromUtf8("dfsButton"));
+        dfsButton->setGeometry(QRect(60, 30, 101, 23));
+        bfsButton = new QPushButton(groupBox_2);
+        bfsButton->setObjectName(QString::fromUtf8("bfsButton"));
+        bfsButton->setGeometry(QRect(240, 30, 101, 23));
         tabWidget->addTab(graph_tab, QString());
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
@@ -127,9 +150,6 @@ public:
         option->setMinimumSize(QSize(0, 0));
         option->setMaximumSize(QSize(16777215, 16777215));
         MainWindow->setMenuBar(menuBar);
-        statusBar = new QStatusBar(MainWindow);
-        statusBar->setObjectName(QString::fromUtf8("statusBar"));
-        MainWindow->setStatusBar(statusBar);
 
         menuBar->addAction(option->menuAction());
         option->addAction(aboutAction);
@@ -137,7 +157,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(3);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -159,10 +179,16 @@ public:
         enterStackButton->setText(QApplication::translate("MainWindow", "\345\205\245\346\240\210", 0, QApplication::UnicodeUTF8));
         outStackButton->setText(QApplication::translate("MainWindow", "\345\207\272\346\240\210", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(stack_tab), QApplication::translate("MainWindow", "\346\240\210", 0, QApplication::UnicodeUTF8));
-        enterQueueButton->setText(QApplication::translate("MainWindow", "\345\205\245\351\230\237", 0, QApplication::UnicodeUTF8));
-        outQueueButton->setText(QApplication::translate("MainWindow", "\345\207\272\351\230\237", 0, QApplication::UnicodeUTF8));
+        circleQueueButton->setText(QApplication::translate("MainWindow", "\345\276\252\347\216\257\351\230\237\345\210\227 \345\205\245\351\230\237/\345\207\272\351\230\237", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(queue_tab), QApplication::translate("MainWindow", "\351\230\237\345\210\227", 0, QApplication::UnicodeUTF8));
+        groupBox->setTitle(QApplication::translate("MainWindow", "\346\240\221\347\232\204\351\201\215\345\216\206", 0, QApplication::UnicodeUTF8));
+        proButton->setText(QApplication::translate("MainWindow", "\345\205\210\345\272\217", 0, QApplication::UnicodeUTF8));
+        MidButton->setText(QApplication::translate("MainWindow", "\344\270\255\345\272\217", 0, QApplication::UnicodeUTF8));
+        rearButton->setText(QApplication::translate("MainWindow", "\345\220\216\345\272\217", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(tree_tab), QApplication::translate("MainWindow", "\346\240\221", 0, QApplication::UnicodeUTF8));
+        groupBox_2->setTitle(QApplication::translate("MainWindow", "\345\233\276\347\232\204\351\201\215\345\216\206", 0, QApplication::UnicodeUTF8));
+        dfsButton->setText(QApplication::translate("MainWindow", "\346\267\261\345\272\246\344\274\230\345\205\210\346\220\234\347\264\242", 0, QApplication::UnicodeUTF8));
+        bfsButton->setText(QApplication::translate("MainWindow", "\345\271\277\345\272\246\344\274\230\345\205\210\346\220\234\347\264\242", 0, QApplication::UnicodeUTF8));
         tabWidget->setTabText(tabWidget->indexOf(graph_tab), QApplication::translate("MainWindow", "\345\233\276", 0, QApplication::UnicodeUTF8));
         option->setTitle(QApplication::translate("MainWindow", "\351\200\211\351\241\271", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

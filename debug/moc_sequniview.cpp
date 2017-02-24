@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'sequniview.h'
 **
-** Created: Mon Feb 13 23:05:07 2017
+** Created: Fri Feb 24 20:12:49 2017
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

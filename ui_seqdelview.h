@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'seqdelview.ui'
 **
-** Created: Wed Feb 15 11:19:59 2017
+** Created: Fri Feb 24 20:07:26 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -313,7 +313,7 @@ public:
         frashButton_2->setText(QApplication::translate("seqDelView", "\345\244\215\344\275\215", 0, QApplication::UnicodeUTF8));
         explainButton_2->setText(QApplication::translate("seqDelView", "\350\257\264\346\230\216", 0, QApplication::UnicodeUTF8));
         backButton_2->setText(QApplication::translate("seqDelView", "\351\200\200\345\207\272", 0, QApplication::UnicodeUTF8));
-        groupBox->setTitle(QApplication::translate("seqDelView", "\347\247\273\345\212\250\350\277\207\347\250\213\346\274\224\347\244\272:", 0, QApplication::UnicodeUTF8));
+        groupBox->setTitle(QApplication::translate("seqDelView", "\346\274\224\347\244\272\345\214\272", 0, QApplication::UnicodeUTF8));
         lineEdit_11->setText(QString());
         lineEdit_17->setText(QString());
         label_2->setText(QApplication::translate("seqDelView", "\345\275\223\345\211\215\347\247\273\345\212\250\344\275\215\346\225\260:", 0, QApplication::UnicodeUTF8));

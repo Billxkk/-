@@ -160,7 +160,7 @@
      <string notr="true">font: 9pt &quot;Agency FB&quot;;</string>
     </property>
     <property name="title">
-     <string>移动过程演示:</string>
+     <string>演示区</string>
     </property>
     <widget class="QLineEdit" name="lineEdit_11">
      <property name="geometry">

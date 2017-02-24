@@ -10,7 +10,17 @@
 #include"sequniview.h"
 #include"seqdelview.h"
 #include"linkcreaatnodehead.h"
+#include"linkinsview.h"
+#include"linkdelview.h"
 
+#include"queueenter.h"
+
+#include"treemidtravel.h"
+#include"treeprotravel.h"
+#include"treereartravel.h"
+
+#include"bfs_graph.h"
+#include"dfs_graph.h"
 
 namespace Ui {
 class MainWindow;
@@ -33,6 +43,20 @@ private:
     seqUniView *seqUniview;
     seqDelView *seqDelview;
 
+    linkCreaatNodeHead  *linkCreatHead;
+    linkInsView *linkInsview;
+    linkDelView *linkDelview;
+
+    QueueEnter *circleQueue;
+
+    TreeProTravel *TreePro;
+    TreeMidTravel *TreeMid;
+    TreeRearTravel *TreeRear;
+
+    DFS_Graph *dfs_graph;
+    BFS_Graph *bfs_graph;
+
+
 
 private slots:
     void aboutAction_slot();//¹ØÓÚ´°¿Ú ²Û
@@ -48,8 +72,13 @@ private slots:
     void on_linkDelButton_clicked();
     void on_enterStackButton_clicked();
     void on_outStackButton_clicked();
-    void on_enterQueueButton_clicked();
-    void on_outQueueButton_clicked();
+
+    void on_circleQueueButton_clicked();
+    void on_proButton_clicked();
+    void on_MidButton_clicked();
+    void on_rearButton_clicked();
+    void on_dfsButton_clicked();
+    void on_bfsButton_clicked();
 };
 
 #endif // MAINWINDOW_H
