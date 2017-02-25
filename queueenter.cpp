@@ -273,7 +273,11 @@ void QueueEnter::on_outButton_clicked()
 
 void QueueEnter::on_explainButton_clicked()
 {
-        QMessageBox::information(this,"说明","test information 测试 \n 转行");
+    QMessageBox::information(this,"说明","<p>演示过程通过按钮来进行控制，当按钮为灰色时无法点击。"
+                             "演示过程在演示区进行，算法区显示代码并可对当前行红色显示</p>"
+                             " 在“入队元素”后的栏中输入要入队的元素，点击入队按钮，将进行入队"
+                             "操作（默认仅将第一个字符作为入队数据）。"
+                             "点击出队按钮，将进行出队操作，并将出队元素输出到上方栏中。");
 }
 
 void QueueEnter::on_backButton_clicked()

@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = project1
+TARGET = LearningSoftware
 TEMPLATE = app
 
 
@@ -25,7 +25,9 @@ SOURCES += main.cpp\
     treemidtravel.cpp \
     treereartravel.cpp \
     bfs_graph.cpp \
-    dfs_graph.cpp
+    dfs_graph.cpp \
+    stackinview.cpp \
+    stackoutview.cpp
 
 HEADERS  += mainwindow.h \
     seqinsview.h \
@@ -39,7 +41,9 @@ HEADERS  += mainwindow.h \
     treemidtravel.h \
     treereartravel.h \
     bfs_graph.h \
-    dfs_graph.h
+    dfs_graph.h \
+    stackinview.h \
+    stackoutview.h
 
 FORMS    += mainwindow.ui \
     seqinsview.ui \
@@ -53,7 +57,12 @@ FORMS    += mainwindow.ui \
     treemidtravel.ui \
     treereartravel.ui \
     bfs_graph.ui \
-    dfs_graph.ui
+    dfs_graph.ui \
+    stackinview.ui \
+    stackoutview.ui
 
 RESOURCES += \
     img.qrc
+
+RC_FILE=icon.rc
+

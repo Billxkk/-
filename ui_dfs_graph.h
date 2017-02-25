@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'dfs_graph.ui'
 **
-** Created: Fri Feb 24 20:48:05 2017
+** Created: Sat Feb 25 17:36:34 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -50,9 +50,9 @@ public:
     QLineEdit *lineEdit_1;
     QLineEdit *lineEdit_7;
     QLineEdit *lineEdit;
-    QLabel *label_20;
+    QLabel *label_asdf;
     QLineEdit *lineEdit_9;
-    QLabel *label_21;
+    QLabel *label_asdfasdf;
     QLineEdit *inforlineEdit;
     QLineEdit *lineEdit_2;
     QLineEdit *lineEdit_4;
@@ -70,15 +70,15 @@ public:
     QLabel *label_9;
     QLabel *label_10;
     QGroupBox *groupBox_3;
-    QLabel *label_11;
-    QLabel *label_12;
-    QLabel *label_13;
-    QLabel *label_14;
-    QLabel *label_15;
-    QLabel *label_16;
-    QLabel *label_17;
-    QLabel *label_18;
-    QLabel *label_19;
+    QLabel *label_27;
+    QLabel *label_28;
+    QLabel *label_23;
+    QLabel *label_26;
+    QLabel *label_20;
+    QLabel *label_22;
+    QLabel *label_25;
+    QLabel *label_21;
+    QLabel *label_24;
     QMenuBar *menubar;
 
     void setupUi(QMainWindow *DFS_Graph)
@@ -174,18 +174,18 @@ public:
         lineEdit = new QLineEdit(groupBox);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
         lineEdit->setGeometry(QRect(190, 240, 113, 25));
-        label_20 = new QLabel(groupBox);
-        label_20->setObjectName(QString::fromUtf8("label_20"));
-        label_20->setGeometry(QRect(60, 240, 130, 25));
+        label_asdf = new QLabel(groupBox);
+        label_asdf->setObjectName(QString::fromUtf8("label_asdf"));
+        label_asdf->setGeometry(QRect(60, 240, 130, 25));
         lineEdit_9 = new QLineEdit(groupBox);
         lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
         lineEdit_9->setGeometry(QRect(340, 130, 25, 25));
         lineEdit_9->setMinimumSize(QSize(25, 25));
         lineEdit_9->setMaximumSize(QSize(25, 25));
         lineEdit_9->setStyleSheet(QString::fromUtf8("font: 12pt \"\345\256\213\344\275\223\";"));
-        label_21 = new QLabel(groupBox);
-        label_21->setObjectName(QString::fromUtf8("label_21"));
-        label_21->setGeometry(QRect(370, 240, 70, 25));
+        label_asdfasdf = new QLabel(groupBox);
+        label_asdfasdf->setObjectName(QString::fromUtf8("label_asdfasdf"));
+        label_asdfasdf->setGeometry(QRect(370, 240, 70, 25));
         inforlineEdit = new QLineEdit(groupBox);
         inforlineEdit->setObjectName(QString::fromUtf8("inforlineEdit"));
         inforlineEdit->setGeometry(QRect(440, 240, 120, 25));
@@ -259,42 +259,42 @@ public:
         groupBox_3 = new QGroupBox(centralwidget);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
         groupBox_3->setGeometry(QRect(350, 410, 271, 291));
-        label_11 = new QLabel(groupBox_3);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(10, 160, 261, 21));
-        label_11->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_12 = new QLabel(groupBox_3);
-        label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(10, 180, 261, 21));
-        label_12->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_13 = new QLabel(groupBox_3);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(10, 80, 261, 21));
-        label_13->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_14 = new QLabel(groupBox_3);
-        label_14->setObjectName(QString::fromUtf8("label_14"));
-        label_14->setGeometry(QRect(10, 140, 261, 21));
-        label_14->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_15 = new QLabel(groupBox_3);
-        label_15->setObjectName(QString::fromUtf8("label_15"));
-        label_15->setGeometry(QRect(10, 20, 281, 21));
-        label_15->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_16 = new QLabel(groupBox_3);
-        label_16->setObjectName(QString::fromUtf8("label_16"));
-        label_16->setGeometry(QRect(10, 60, 261, 21));
-        label_16->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_17 = new QLabel(groupBox_3);
-        label_17->setObjectName(QString::fromUtf8("label_17"));
-        label_17->setGeometry(QRect(10, 120, 261, 21));
-        label_17->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_18 = new QLabel(groupBox_3);
-        label_18->setObjectName(QString::fromUtf8("label_18"));
-        label_18->setGeometry(QRect(10, 40, 261, 21));
-        label_18->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
-        label_19 = new QLabel(groupBox_3);
-        label_19->setObjectName(QString::fromUtf8("label_19"));
-        label_19->setGeometry(QRect(10, 100, 271, 21));
-        label_19->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_27 = new QLabel(groupBox_3);
+        label_27->setObjectName(QString::fromUtf8("label_27"));
+        label_27->setGeometry(QRect(10, 160, 261, 21));
+        label_27->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_28 = new QLabel(groupBox_3);
+        label_28->setObjectName(QString::fromUtf8("label_28"));
+        label_28->setGeometry(QRect(10, 180, 261, 21));
+        label_28->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_23 = new QLabel(groupBox_3);
+        label_23->setObjectName(QString::fromUtf8("label_23"));
+        label_23->setGeometry(QRect(10, 80, 261, 21));
+        label_23->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_26 = new QLabel(groupBox_3);
+        label_26->setObjectName(QString::fromUtf8("label_26"));
+        label_26->setGeometry(QRect(10, 140, 261, 21));
+        label_26->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_20 = new QLabel(groupBox_3);
+        label_20->setObjectName(QString::fromUtf8("label_20"));
+        label_20->setGeometry(QRect(10, 20, 281, 21));
+        label_20->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_22 = new QLabel(groupBox_3);
+        label_22->setObjectName(QString::fromUtf8("label_22"));
+        label_22->setGeometry(QRect(10, 60, 261, 21));
+        label_22->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_25 = new QLabel(groupBox_3);
+        label_25->setObjectName(QString::fromUtf8("label_25"));
+        label_25->setGeometry(QRect(10, 120, 261, 21));
+        label_25->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_21 = new QLabel(groupBox_3);
+        label_21->setObjectName(QString::fromUtf8("label_21"));
+        label_21->setGeometry(QRect(10, 40, 261, 21));
+        label_21->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_24 = new QLabel(groupBox_3);
+        label_24->setObjectName(QString::fromUtf8("label_24"));
+        label_24->setGeometry(QRect(10, 100, 271, 21));
+        label_24->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
         DFS_Graph->setCentralWidget(centralwidget);
         menubar = new QMenuBar(DFS_Graph);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -316,8 +316,8 @@ public:
         explainButton->setText(QApplication::translate("DFS_Graph", "\350\257\264\346\230\216", 0, QApplication::UnicodeUTF8));
         backButton->setText(QApplication::translate("DFS_Graph", "\351\200\200\345\207\272", 0, QApplication::UnicodeUTF8));
         groupBox->setTitle(QApplication::translate("DFS_Graph", "\346\267\261\345\272\246\344\274\230\345\205\210\346\220\234\347\264\242", 0, QApplication::UnicodeUTF8));
-        label_20->setText(QApplication::translate("DFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\267\261\345\272\246\344\274\230\345\205\210\345\272\217\345\210\227:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
-        label_21->setText(QApplication::translate("DFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\217\220\347\244\272\346\241\206:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
+        label_asdf->setText(QApplication::translate("DFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\267\261\345\272\246\344\274\230\345\205\210\345\272\217\345\210\227:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
+        label_asdfasdf->setText(QApplication::translate("DFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\217\220\347\244\272\346\241\206:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("DFS_Graph", "TraverDFS", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("DFS_Graph", "Boolean visited[MAX];//\350\256\277\351\227\256\346\240\207\345\277\227\346\225\260\347\273\204", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("DFS_Graph", "void DFSTraverse(Graph G){", 0, QApplication::UnicodeUTF8));
@@ -330,15 +330,15 @@ public:
         label_9->setText(QApplication::translate("DFS_Graph", "      }", 0, QApplication::UnicodeUTF8));
         label_10->setText(QApplication::translate("DFS_Graph", " }", 0, QApplication::UnicodeUTF8));
         groupBox_3->setTitle(QApplication::translate("DFS_Graph", "DFS", 0, QApplication::UnicodeUTF8));
-        label_11->setText(QApplication::translate("DFS_Graph", "     }", 0, QApplication::UnicodeUTF8));
-        label_12->setText(QApplication::translate("DFS_Graph", " }", 0, QApplication::UnicodeUTF8));
-        label_13->setText(QApplication::translate("DFS_Graph", "   while(w){", 0, QApplication::UnicodeUTF8));
-        label_14->setText(QApplication::translate("DFS_Graph", "     w = NextADJ(G,v,w);", 0, QApplication::UnicodeUTF8));
-        label_15->setText(QApplication::translate("DFS_Graph", "void DFS(Graph G,int v)[", 0, QApplication::UnicodeUTF8));
-        label_16->setText(QApplication::translate("DFS_Graph", "   w = firstADJ(G,v);", 0, QApplication::UnicodeUTF8));
-        label_17->setText(QApplication::translate("DFS_Graph", "       DFS(G,w);", 0, QApplication::UnicodeUTF8));
-        label_18->setText(QApplication::translate("DFS_Graph", "   visited[v]=true; visit(v);", 0, QApplication::UnicodeUTF8));
-        label_19->setText(QApplication::translate("DFS_Graph", "     if(!visited[w])", 0, QApplication::UnicodeUTF8));
+        label_27->setText(QApplication::translate("DFS_Graph", "     }", 0, QApplication::UnicodeUTF8));
+        label_28->setText(QApplication::translate("DFS_Graph", " }", 0, QApplication::UnicodeUTF8));
+        label_23->setText(QApplication::translate("DFS_Graph", "   while(w){", 0, QApplication::UnicodeUTF8));
+        label_26->setText(QApplication::translate("DFS_Graph", "     w = NextADJ(G,v,w);", 0, QApplication::UnicodeUTF8));
+        label_20->setText(QApplication::translate("DFS_Graph", "void DFS(Graph G,int v)[", 0, QApplication::UnicodeUTF8));
+        label_22->setText(QApplication::translate("DFS_Graph", "   w = firstADJ(G,v);", 0, QApplication::UnicodeUTF8));
+        label_25->setText(QApplication::translate("DFS_Graph", "       DFS(G,w);", 0, QApplication::UnicodeUTF8));
+        label_21->setText(QApplication::translate("DFS_Graph", "   visited[v]=true; visit(v);", 0, QApplication::UnicodeUTF8));
+        label_24->setText(QApplication::translate("DFS_Graph", "     if(!visited[w])", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

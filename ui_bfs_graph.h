@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'bfs_graph.ui'
 **
-** Created: Fri Feb 24 20:50:30 2017
+** Created: Sat Feb 25 17:36:34 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -98,11 +98,6 @@ public:
         backButton = new QPushButton(ButtonBox);
         backButton->setObjectName(QString::fromUtf8("backButton"));
         backButton->setGeometry(QRect(214, 80, 75, 23));
-        startButton->raise();
-        frashButton->raise();
-        explainButton->raise();
-        pauseButton->raise();
-        backButton->raise();
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(30, 170, 531, 381));
@@ -285,7 +280,7 @@ public:
         label_22->setText(QApplication::translate("BFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\217\220\347\244\272\346\241\206:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
         label_21->setText(QApplication::translate("BFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\267\261\345\272\246\344\274\230\345\205\210\345\272\217\345\210\227:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("BFS_Graph", "TraverBFS", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("BFS_Graph", "void BFSTraverse(Graph G){", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("BFS_Graph", "<html><head/><body><p><span style=\" font-weight:600;\">void BFSTraverse(Graph G){</span></p></body></html>", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("BFS_Graph", "   for(v=1;v<=G.num;++v)visited[v]=false; //\346\240\207\345\277\227\346\225\260\347\273\204\345\210\235\345\247\213\345\214\226", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("BFS_Graph", "   InitQueue(Q);//\345\210\235\345\247\213\345\214\226\351\230\237\345\210\227", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("BFS_Graph", "   for(v=1;v<=G.num;++v)", 0, QApplication::UnicodeUTF8));

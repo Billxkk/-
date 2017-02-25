@@ -42,6 +42,8 @@ private:
     Ui::BFS_Graph *ui;
     bool pause;
     bool startSign;
+    void makeChoose(int i);
+    void ToShowFunctoin(int i);
 
     QLabel * the1;
     QLabel * the2;
@@ -57,6 +59,8 @@ private:
     QElapsedTimer t;
     QPalette currentColor;
     QPalette elseColor;
+    QPalette redColor;
+    QPalette blackColor;
 };
 
 #endif // BFS_GRAPH_H

@@ -33,12 +33,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::aboutAction_slot()//关于窗口
 {
-     QMessageBox::about(NULL,"关于","displayed information");
+     QMessageBox::about(NULL,"关于",tr(" <p><b>Copyright  Feb. 2017  By  许克军 ，刘晨，刘盼</b></p>"));
 }
 
 void MainWindow::helpAction_slot()//帮助窗口
 {
-    QMessageBox::about(NULL,"帮助","displayed information ");
+    QMessageBox::about(NULL,"帮助",tr("<p>本软件是一个动态演示数据结构算法执行过程的辅助教学软件。"
+                                    "用户可以自行输入任意的数据（在数据规模不过大的情况下），并且可以满足对算法运行过程中"
+                                    "进行控制的需求。</p>"));
 }
 
 void MainWindow::on_seqInsButton_clicked()//顺序表插入按钮 点击
@@ -230,12 +232,36 @@ void MainWindow::on_linkDelButton_clicked()//链表删除按钮
 
 void MainWindow::on_enterStackButton_clicked()//入栈按钮
 {
-
+    bool ok;
+    QString Origin=QInputDialog::getText(this,
+                                         tr("顺序栈入栈"),
+                                         tr("请输入原始数据"),
+                                         QLineEdit::Normal,
+                                         "asdfqwer",
+                                         &ok);
+    if(!ok){
+        return;
+    }
+    stackinView =new stackInView;
+    stackinView->elementOne=Origin;
+    stackinView->show();
 }
 
 void MainWindow::on_outStackButton_clicked()//出栈按钮
 {
-
+    bool ok;
+    QString Origin=QInputDialog::getText(this,
+                                         tr("顺序栈入栈"),
+                                         tr("请输入原始数据"),
+                                         QLineEdit::Normal,
+                                         "abcsdfqwer",
+                                         &ok);
+    if(!ok){
+        return;
+    }
+    stackoutView =new stackOutView;
+    stackoutView->elementTwo=Origin;
+    stackoutView->show();
 }
 
 

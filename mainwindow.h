@@ -15,6 +15,9 @@
 
 #include"queueenter.h"
 
+#include"stackinview.h"
+#include"stackoutview.h"
+
 #include"treemidtravel.h"
 #include"treeprotravel.h"
 #include"treereartravel.h"
@@ -48,6 +51,9 @@ private:
     linkDelView *linkDelview;
 
     QueueEnter *circleQueue;
+
+    stackInView *stackinView;
+    stackOutView *stackoutView;
 
     TreeProTravel *TreePro;
     TreeMidTravel *TreeMid;

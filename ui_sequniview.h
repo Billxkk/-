@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'sequniview.ui'
 **
-** Created: Fri Feb 24 20:07:26 2017
+** Created: Sat Feb 25 17:36:34 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

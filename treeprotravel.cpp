@@ -521,7 +521,8 @@ void TreeProTravel::on_frashButton_clicked()
 
 void TreeProTravel::on_explainButton_clicked()
 {
-    QMessageBox::information(this,"说明","test information 测试 \n 转行");
+    QMessageBox::information(this,"说明","演示过程通过按钮来进行控制，当按钮为灰色时无法点击。"
+                             "演示过程在演示区进行，算法区显示代码并可对当前行红色显示");
 }
 
 void TreeProTravel::on_backButton_clicked()
