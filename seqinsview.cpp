@@ -13,6 +13,7 @@ seqInsView::seqInsView(QWidget *parent) :
     pause =0;
     startSign=0;
     ft.setPointSize(12);//默认算法区字符大小
+    ft.setBold(true);
     defaultColor.setColor(QPalette::WindowText,Qt::black);//默认颜色
     workingColor.setColor(QPalette::WindowText,Qt::red);//执行时颜色
 
@@ -424,6 +425,7 @@ void seqInsView::refresh()
         sleepOneSecond();
         num5->setPalette(defaultColor);
 
+        sleepOneSecond(500);
         //将原始数据输出
         int i;
         for(i=0;i<len;i++)
@@ -436,6 +438,8 @@ void seqInsView::refresh()
 
         animation(0);
 
+
+
 }
 
 void seqInsView::on_startButton_clicked()//开始按钮
@@ -443,6 +447,7 @@ void seqInsView::on_startButton_clicked()//开始按钮
     ui->startButton->setEnabled(false);
     refresh();
     ui->pauseButton->setEnabled(true);
+
     startSign =1;
     num7->setPalette(workingColor);
         sleepOneSecond();
@@ -453,6 +458,7 @@ void seqInsView::on_startButton_clicked()//开始按钮
         while(pause){               //检测是否暂停
             sleepOneSecond();
         }
+
        num7->setPalette(defaultColor);
        num8->setPalette(workingColor);
 
@@ -461,17 +467,20 @@ void seqInsView::on_startButton_clicked()//开始按钮
         animation(i);
         display(i+1,element.data()[i-1]);
 
+        sleepOneSecond(500);
         num8->setPalette(defaultColor);
         num7->setPalette(workingColor);
             sleepOneSecond();
 
     }
+    sleepOneSecond(500);
     num7->setPalette(defaultColor);
     num9->setPalette(workingColor);
     sleepOneSecond();
        animation(0);
     display(place,elem);
     display(10+place,NULL);
+    sleepOneSecond(500);
     num9->setPalette(defaultColor);
 
     num10->setPalette(workingColor);
@@ -534,11 +543,13 @@ void seqInsView::on_backButton_clicked()
     this->close();
 }
 
-void seqInsView::sleepOneSecond()
+void seqInsView::sleepOneSecond(int time)
 {
     t.start();
-    while(t.elapsed()<1000)
+    while(t.elapsed()<time)
     {
         QCoreApplication::processEvents();
     }
 }
+
+

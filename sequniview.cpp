@@ -16,6 +16,7 @@ seqUniView::seqUniView(QWidget *parent) :
     redColor.setColor(QPalette::WindowText,Qt::red);
     blackColor = currentColor;
     ft.setPointSize(12);//算法字符格式
+    ft.setBold(true);
 
 
     ui->frashButton->setEnabled(false);
@@ -764,10 +765,10 @@ void seqUniView::display(int pos,QString ele)//显示
     }
 }
 
-void seqUniView::sleepOneSecond()
+void seqUniView::sleepOneSecond(int time)
 {
     t.start();
-    while(t.elapsed()<1000)
+    while(t.elapsed()<time)
     {
         QCoreApplication::processEvents();
     }
@@ -813,6 +814,7 @@ void seqUniView::on_startButton_clicked()
     refresh();
     ui->pauseButton->setEnabled(true);
     startSign=1;
+
     int One,Two;//存储比较数据
     word1->setPalette(redColor);
     sleepOneSecond();
@@ -841,6 +843,7 @@ void seqUniView::on_startButton_clicked()
         ui->firstlineEdit->setText(elementOne.data()[i]);
         ui->secondlineEdit->setText(elementTwo.data()[j]);
         sleepOneSecond();
+
         if(One>Two)//line 4
         {
             animationThree(25);
@@ -848,6 +851,7 @@ void seqUniView::on_startButton_clicked()
             word5->setPalette(redColor);
             sleepOneSecond();
             display(temp,elementTwo.data()[j]);//line 5
+            sleepOneSecond(500);
             word5->setPalette(blackColor);
             j++;
             temp++;
@@ -862,6 +866,7 @@ void seqUniView::on_startButton_clicked()
             word7->setPalette(redColor);
             sleepOneSecond();
             display(temp,elementOne.data()[i]);//line 7
+             sleepOneSecond(500);
             word7->setPalette(blackColor);
             i++;
             temp++;
@@ -873,6 +878,7 @@ void seqUniView::on_startButton_clicked()
             animationThree(27);
             sleepOneSecond();
             display(temp,elementOne.data()[i]);//line8
+             sleepOneSecond(500);
             word8->setPalette(blackColor);
             i++;
             j++;//line9

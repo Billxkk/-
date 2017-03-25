@@ -20,7 +20,7 @@ public:
     ~seqUniView();
     void refresh();
     void display(int,QString);
-    void sleepOneSecond();
+    void sleepOneSecond(int time = 1000);
     void animationOne(int);//控制第一组数据移动
     void animationTwo(int);//控制第二组数据移动
     void animationThree(int);//控制比较值的显示

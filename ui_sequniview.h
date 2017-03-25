@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'sequniview.ui'
 **
-** Created: Sat Mar 25 09:57:59 2017
+** Created: Sat Mar 25 19:38:11 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -334,84 +334,98 @@ public:
         firstlineEdit->setGeometry(QRect(280, 175, 25, 25));
         firstlineEdit->setMinimumSize(QSize(25, 25));
         firstlineEdit->setMaximumSize(QSize(25, 25));
+        firstlineEdit->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         firstlineEdit->setReadOnly(true);
         secondlineEdit = new QLineEdit(groupBox);
         secondlineEdit->setObjectName(QString::fromUtf8("secondlineEdit"));
         secondlineEdit->setGeometry(QRect(340, 175, 25, 25));
         secondlineEdit->setMinimumSize(QSize(25, 25));
         secondlineEdit->setMaximumSize(QSize(25, 25));
+        secondlineEdit->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         secondlineEdit->setReadOnly(true);
         lineEdit_25 = new QLineEdit(groupBox);
         lineEdit_25->setObjectName(QString::fromUtf8("lineEdit_25"));
         lineEdit_25->setGeometry(QRect(10, 230, 25, 25));
         lineEdit_25->setMinimumSize(QSize(25, 25));
         lineEdit_25->setMaximumSize(QSize(25, 25));
+        lineEdit_25->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_25->setReadOnly(true);
         lineEdit_26 = new QLineEdit(groupBox);
         lineEdit_26->setObjectName(QString::fromUtf8("lineEdit_26"));
         lineEdit_26->setGeometry(QRect(70, 230, 25, 25));
         lineEdit_26->setMinimumSize(QSize(25, 25));
         lineEdit_26->setMaximumSize(QSize(25, 25));
+        lineEdit_26->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_26->setReadOnly(true);
         lineEdit_27 = new QLineEdit(groupBox);
         lineEdit_27->setObjectName(QString::fromUtf8("lineEdit_27"));
         lineEdit_27->setGeometry(QRect(130, 230, 25, 25));
         lineEdit_27->setMinimumSize(QSize(25, 25));
         lineEdit_27->setMaximumSize(QSize(25, 25));
+        lineEdit_27->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_27->setReadOnly(true);
         lineEdit_28 = new QLineEdit(groupBox);
         lineEdit_28->setObjectName(QString::fromUtf8("lineEdit_28"));
         lineEdit_28->setGeometry(QRect(190, 230, 25, 25));
         lineEdit_28->setMinimumSize(QSize(25, 25));
         lineEdit_28->setMaximumSize(QSize(25, 25));
+        lineEdit_28->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_28->setReadOnly(true);
         lineEdit_29 = new QLineEdit(groupBox);
         lineEdit_29->setObjectName(QString::fromUtf8("lineEdit_29"));
         lineEdit_29->setGeometry(QRect(250, 230, 25, 25));
         lineEdit_29->setMinimumSize(QSize(25, 25));
         lineEdit_29->setMaximumSize(QSize(25, 25));
+        lineEdit_29->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_29->setReadOnly(true);
         lineEdit_30 = new QLineEdit(groupBox);
         lineEdit_30->setObjectName(QString::fromUtf8("lineEdit_30"));
         lineEdit_30->setGeometry(QRect(310, 230, 25, 25));
         lineEdit_30->setMinimumSize(QSize(25, 25));
         lineEdit_30->setMaximumSize(QSize(25, 25));
+        lineEdit_30->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_30->setReadOnly(true);
         lineEdit_31 = new QLineEdit(groupBox);
         lineEdit_31->setObjectName(QString::fromUtf8("lineEdit_31"));
         lineEdit_31->setGeometry(QRect(370, 230, 25, 25));
         lineEdit_31->setMinimumSize(QSize(25, 25));
         lineEdit_31->setMaximumSize(QSize(25, 25));
+        lineEdit_31->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_31->setReadOnly(true);
         lineEdit_32 = new QLineEdit(groupBox);
         lineEdit_32->setObjectName(QString::fromUtf8("lineEdit_32"));
         lineEdit_32->setGeometry(QRect(430, 230, 25, 25));
         lineEdit_32->setMinimumSize(QSize(25, 25));
         lineEdit_32->setMaximumSize(QSize(25, 25));
+        lineEdit_32->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_32->setReadOnly(true);
         lineEdit_33 = new QLineEdit(groupBox);
         lineEdit_33->setObjectName(QString::fromUtf8("lineEdit_33"));
         lineEdit_33->setGeometry(QRect(490, 230, 25, 25));
         lineEdit_33->setMinimumSize(QSize(25, 25));
         lineEdit_33->setMaximumSize(QSize(25, 25));
+        lineEdit_33->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_33->setReadOnly(true);
         lineEdit_34 = new QLineEdit(groupBox);
         lineEdit_34->setObjectName(QString::fromUtf8("lineEdit_34"));
         lineEdit_34->setGeometry(QRect(550, 230, 25, 25));
         lineEdit_34->setMinimumSize(QSize(25, 25));
         lineEdit_34->setMaximumSize(QSize(25, 25));
+        lineEdit_34->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_34->setReadOnly(true);
         lineEdit_35 = new QLineEdit(groupBox);
         lineEdit_35->setObjectName(QString::fromUtf8("lineEdit_35"));
         lineEdit_35->setGeometry(QRect(610, 230, 25, 25));
         lineEdit_35->setMinimumSize(QSize(25, 25));
         lineEdit_35->setMaximumSize(QSize(25, 25));
+        lineEdit_35->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_35->setReadOnly(true);
         lineEdit_36 = new QLineEdit(groupBox);
         lineEdit_36->setObjectName(QString::fromUtf8("lineEdit_36"));
         lineEdit_36->setGeometry(QRect(670, 230, 25, 25));
         lineEdit_36->setMinimumSize(QSize(25, 25));
         lineEdit_36->setMaximumSize(QSize(25, 25));
+        lineEdit_36->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_36->setReadOnly(true);
         ButtonBox = new QGroupBox(centralwidget);
         ButtonBox->setObjectName(QString::fromUtf8("ButtonBox"));

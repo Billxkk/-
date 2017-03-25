@@ -21,7 +21,7 @@ public:
     ~seqInsView();
     void refresh();
     void display(int,QString);
-    void sleepOneSecond();
+    void sleepOneSecond(int time = 1000);
     void animation(int);//控制箭头的显示
 
     QString  element;//原始字符组

@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 
     MainWindow w;
-    a.setStyleSheet("QLineEdit {font-family:KaiTi;}");
+    a.setStyleSheet("QLineEdit {font-family:KaiTi; font:14px}");
     w.setWindowTitle(QObject::tr("数据结构教学软件"));
     w.show();
     

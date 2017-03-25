@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'seqdelview.h'
 **
-** Created: Sat Mar 25 09:58:35 2017
+** Created: Sat Mar 25 19:24:30 2017
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

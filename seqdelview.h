@@ -20,7 +20,7 @@ public:
 
     void refresh();
     void display(int,QString);
-    void sleepOneSecond();
+    void sleepOneSecond(int time = 1000);
 
     QString elementdel; //Ô­Ê¼×Ö·û´®
     int position;  //É¾³ýÎ»ÖÃ

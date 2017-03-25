@@ -13,6 +13,7 @@ seqDelView::seqDelView(QWidget *parent) :
     pause =0;
     startSign =0;
     ft.setPointSize(12);//默认算法区字符大小
+    ft.setBold(true);
     defaultColor.setColor(QPalette::WindowText,Qt::black);//默认颜色
     workingColor.setColor(QPalette::WindowText,Qt::red);//执行时颜色
 
@@ -202,6 +203,8 @@ void seqDelView::on_startButton_2_clicked()//开始按钮
         ui->currentlineEdit_2->setText(QString::number(i) + "-->" + QString::number(i-1));
         display(i-1,elementdel.data()[i-1]);
 
+        sleepOneSecond(500);
+
         num8->setPalette(defaultColor);
         num7->setPalette(workingColor);
             sleepOneSecond();
@@ -280,10 +283,10 @@ void seqDelView::on_backButton_2_clicked()//返回按钮
     this->close();
 }
 
-void seqDelView::sleepOneSecond()
+void seqDelView::sleepOneSecond(int time)
 {
     t.start();
-    while(t.elapsed()<1000)
+    while(t.elapsed()<time)
     {
         QCoreApplication::processEvents();
     }
