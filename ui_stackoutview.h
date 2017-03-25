@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'stackoutview.ui'
 **
-** Created: Sat Feb 25 17:36:34 2017
+** Created: Sat Mar 25 09:58:00 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

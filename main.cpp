@@ -2,6 +2,8 @@
 #include "mainwindow.h"
 #include<QTextCodec>
 #include<QDebug>
+#include<QFontDatabase>
+
 
 int main(int argc, char *argv[])
 {
@@ -12,8 +14,11 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForTr(codec);
 
 
+
+
     MainWindow w;
-    w.setWindowTitle(QObject::tr("教学软件"));
+    a.setStyleSheet("QLineEdit {font-family:KaiTi;}");
+    w.setWindowTitle(QObject::tr("数据结构教学软件"));
     w.show();
     
     return a.exec();

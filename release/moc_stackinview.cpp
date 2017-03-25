@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'stackinview.h'
 **
-** Created: Sat Feb 25 17:37:34 2017
+** Created: Sat Mar 25 09:58:45 2017
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
