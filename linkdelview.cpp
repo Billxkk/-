@@ -22,16 +22,16 @@ linkDelView::linkDelView(QWidget *parent) :
 
     QFont ft("Microsoft YaHei", 10, 75);
     ui->label_2->setText("Status ListDelete( LinkList &L, Elem e){");
-    ui->label_3->setText("       p = L; j = o;");
-    ui->label_4->setText("      while( p->next ){");
+    ui->label_3->setText("       p = L;");
+    ui->label_4->setText("      while( p->next ){//搜索删除结点");
     ui->label_5->setText("                  if( p->next->data == e){");
     ui->label_6->setText("                          break; }");
     ui->label_7->setText("                  p = p->next; }");
-    ui->label_8->setText("       if( p->next ){");
-    ui->label_9->setText("                 return ERROR; }");
-    ui->label_10->setText("      q = p->next ;");
-    ui->label_11->setText("       p->next = q->next ;");
-    ui->label_12->setText("         delete q ;");
+    ui->label_8->setText("       if( p->next )//判断删除元素是否存在");
+    ui->label_9->setText("                 return ERROR; ");
+    ui->label_10->setText("      q = p->next ;//指向待删除的结点");
+    ui->label_11->setText("       p->next = q->next ;//绕过待删除的结点");
+    ui->label_12->setText("         delete q ;//释放结点的存储空间");
     ui->label_13->setText("       return OK;");
     ui->label_14->setText("  }");
     ui->label_2->setFont(ft);

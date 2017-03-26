@@ -138,7 +138,7 @@ void MainWindow::on_seqDelButton_clicked()//顺序表删除按钮 点击
     bool ok;
     QString  Origin = QInputDialog::getText(this,
                                             tr("顺序表删除"),
-                                            tr("输入顺序表"),
+                                            tr("输入顺序表(不超过十个元素)"),
                                             QLineEdit::Normal,
                                             "asdfqwer",
                                             &ok);

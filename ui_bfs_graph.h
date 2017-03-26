@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'bfs_graph.ui'
 **
-** Created: Sun Mar 26 11:39:12 2017
+** Created: Sun Mar 26 16:16:32 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -71,6 +71,9 @@ public:
     QLabel *label_18;
     QLabel *label_19;
     QLabel *label_20;
+    QLabel *label_23;
+    QLabel *label_24;
+    QLabel *label_25;
     QMenuBar *menubar;
 
     void setupUi(QMainWindow *BFS_Graph)
@@ -188,76 +191,88 @@ public:
         label_2->setStyleSheet(QString::fromUtf8(""));
         label_3 = new QLabel(groupBox_2);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(10, 60, 571, 21));
+        label_3->setGeometry(QRect(10, 80, 571, 21));
         label_3->setStyleSheet(QString::fromUtf8(""));
         label_4 = new QLabel(groupBox_2);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(10, 80, 571, 21));
+        label_4->setGeometry(QRect(10, 100, 571, 21));
         label_4->setStyleSheet(QString::fromUtf8(""));
         label_5 = new QLabel(groupBox_2);
         label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(10, 100, 581, 21));
+        label_5->setGeometry(QRect(10, 120, 581, 21));
         label_5->setStyleSheet(QString::fromUtf8(""));
         label_6 = new QLabel(groupBox_2);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(10, 120, 551, 21));
+        label_6->setGeometry(QRect(10, 140, 551, 21));
         label_6->setStyleSheet(QString::fromUtf8(""));
         label_7 = new QLabel(groupBox_2);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(10, 140, 551, 21));
+        label_7->setGeometry(QRect(10, 160, 551, 21));
         label_7->setStyleSheet(QString::fromUtf8(""));
         label_8 = new QLabel(groupBox_2);
         label_8->setObjectName(QString::fromUtf8("label_8"));
-        label_8->setGeometry(QRect(10, 160, 571, 21));
+        label_8->setGeometry(QRect(10, 180, 571, 21));
         label_8->setStyleSheet(QString::fromUtf8(""));
         label_9 = new QLabel(groupBox_2);
         label_9->setObjectName(QString::fromUtf8("label_9"));
-        label_9->setGeometry(QRect(10, 180, 581, 21));
+        label_9->setGeometry(QRect(10, 200, 581, 21));
         label_9->setStyleSheet(QString::fromUtf8(""));
         label_10 = new QLabel(groupBox_2);
         label_10->setObjectName(QString::fromUtf8("label_10"));
-        label_10->setGeometry(QRect(10, 200, 591, 21));
+        label_10->setGeometry(QRect(10, 220, 591, 21));
         label_10->setStyleSheet(QString::fromUtf8(""));
         label_11 = new QLabel(groupBox_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(10, 220, 591, 21));
+        label_11->setGeometry(QRect(10, 240, 591, 21));
         label_11->setStyleSheet(QString::fromUtf8(""));
         label_12 = new QLabel(groupBox_2);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(10, 240, 591, 21));
+        label_12->setGeometry(QRect(10, 260, 591, 21));
         label_12->setStyleSheet(QString::fromUtf8(""));
         label_13 = new QLabel(groupBox_2);
         label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(10, 260, 591, 21));
+        label_13->setGeometry(QRect(10, 280, 591, 21));
         label_13->setStyleSheet(QString::fromUtf8(""));
         label_14 = new QLabel(groupBox_2);
         label_14->setObjectName(QString::fromUtf8("label_14"));
-        label_14->setGeometry(QRect(10, 280, 591, 21));
+        label_14->setGeometry(QRect(10, 320, 591, 21));
         label_14->setStyleSheet(QString::fromUtf8(""));
         label_15 = new QLabel(groupBox_2);
         label_15->setObjectName(QString::fromUtf8("label_15"));
-        label_15->setGeometry(QRect(10, 300, 591, 21));
+        label_15->setGeometry(QRect(10, 340, 591, 21));
         label_15->setStyleSheet(QString::fromUtf8(""));
         label_16 = new QLabel(groupBox_2);
         label_16->setObjectName(QString::fromUtf8("label_16"));
-        label_16->setGeometry(QRect(10, 320, 591, 21));
+        label_16->setGeometry(QRect(10, 360, 591, 21));
         label_16->setStyleSheet(QString::fromUtf8(""));
         label_17 = new QLabel(groupBox_2);
         label_17->setObjectName(QString::fromUtf8("label_17"));
-        label_17->setGeometry(QRect(10, 340, 591, 21));
+        label_17->setGeometry(QRect(10, 400, 591, 21));
         label_17->setStyleSheet(QString::fromUtf8(""));
         label_18 = new QLabel(groupBox_2);
         label_18->setObjectName(QString::fromUtf8("label_18"));
-        label_18->setGeometry(QRect(10, 360, 591, 21));
+        label_18->setGeometry(QRect(10, 420, 591, 21));
         label_18->setStyleSheet(QString::fromUtf8(""));
         label_19 = new QLabel(groupBox_2);
         label_19->setObjectName(QString::fromUtf8("label_19"));
-        label_19->setGeometry(QRect(10, 380, 591, 21));
+        label_19->setGeometry(QRect(10, 440, 591, 21));
         label_19->setStyleSheet(QString::fromUtf8(""));
         label_20 = new QLabel(groupBox_2);
         label_20->setObjectName(QString::fromUtf8("label_20"));
-        label_20->setGeometry(QRect(10, 400, 591, 21));
+        label_20->setGeometry(QRect(10, 460, 591, 21));
         label_20->setStyleSheet(QString::fromUtf8(""));
+        label_23 = new QLabel(groupBox_2);
+        label_23->setObjectName(QString::fromUtf8("label_23"));
+        label_23->setGeometry(QRect(10, 380, 591, 21));
+        label_23->setStyleSheet(QString::fromUtf8(""));
+        label_24 = new QLabel(groupBox_2);
+        label_24->setObjectName(QString::fromUtf8("label_24"));
+        label_24->setGeometry(QRect(10, 300, 591, 21));
+        label_24->setStyleSheet(QString::fromUtf8(""));
+        label_25 = new QLabel(groupBox_2);
+        label_25->setObjectName(QString::fromUtf8("label_25"));
+        label_25->setGeometry(QRect(10, 60, 551, 21));
+        label_25->setStyleSheet(QString::fromUtf8(""));
         BFS_Graph->setCentralWidget(centralwidget);
         menubar = new QMenuBar(BFS_Graph);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -283,25 +298,28 @@ public:
         label_21->setText(QApplication::translate("BFS_Graph", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff0000;\">\346\267\261\345\272\246\344\274\230\345\205\210\345\272\217\345\210\227:</span></p></body></html>", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("BFS_Graph", "TraverBFS", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("BFS_Graph", "<html><head/><body><p><span style=\" font-weight:600;\">void BFSTraverse(Graph G){</span></p></body></html>", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("BFS_Graph", "   for(v=1;v<=G.num;++v)visited[v]=false; //\346\240\207\345\277\227\346\225\260\347\273\204\345\210\235\345\247\213\345\214\226", 0, QApplication::UnicodeUTF8));
-        label_3->setText(QApplication::translate("BFS_Graph", "   InitQueue(Q);//\345\210\235\345\247\213\345\214\226\351\230\237\345\210\227", 0, QApplication::UnicodeUTF8));
+        label_2->setText(QApplication::translate("BFS_Graph", "   for(v=1;v<=G.num;++v)visited[v]=false;", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("BFS_Graph", "   InitQueue(Q);//\345\210\235\345\247\213\345\214\226\345\276\252\347\216\257\351\241\272\345\272\217\351\230\237\345\210\227", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("BFS_Graph", "   for(v=1;v<=G.num;++v)", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("BFS_Graph", "     if(!visited[v]){", 0, QApplication::UnicodeUTF8));
-        label_6->setText(QApplication::translate("BFS_Graph", "       visited[v] = true; visit(v);", 0, QApplication::UnicodeUTF8));
-        label_7->setText(QApplication::translate("BFS_Graph", "       EnQueue(Q,v);", 0, QApplication::UnicodeUTF8));
-        label_8->setText(QApplication::translate("BFS_Graph", "       while(!QueueEmpty(Q)){", 0, QApplication::UnicodeUTF8));
-        label_9->setText(QApplication::translate("BFS_Graph", "         DeQueue(Q,v0);", 0, QApplication::UnicodeUTF8));
-        label_10->setText(QApplication::translate("BFS_Graph", "         w = FirstADJ(G,v0);", 0, QApplication::UnicodeUTF8));
+        label_6->setText(QApplication::translate("BFS_Graph", "         visited[v] = true; visit(v);//\351\201\215\345\216\206v\346\211\200\345\234\250\347\232\204\350\277\236\351\200\232\345\210\206\351\207\217", 0, QApplication::UnicodeUTF8));
+        label_7->setText(QApplication::translate("BFS_Graph", "         EnQueue(Q,v);//\347\274\226\345\217\267\344\270\272v\347\232\204\351\241\266\347\202\271\345\205\245\351\230\237", 0, QApplication::UnicodeUTF8));
+        label_8->setText(QApplication::translate("BFS_Graph", "         while(!QueueEmpty(Q)){//\351\230\237\345\210\227\344\270\215\344\270\272\347\251\272\345\276\252\347\216\257\345\244\204\347\220\206\351\241\266\347\202\271", 0, QApplication::UnicodeUTF8));
+        label_9->setText(QApplication::translate("BFS_Graph", "         DeQueue(Q,v0);//v0\345\207\272\351\230\237", 0, QApplication::UnicodeUTF8));
+        label_10->setText(QApplication::translate("BFS_Graph", "         w = FirstADJ(G,v0);//\350\216\267\345\276\227\345\275\223\345\211\215\345\275\223\345\211\215\350\276\271\351\223\276\350\241\250\347\232\204\345\244\264\346\214\207\351\222\210", 0, QApplication::UnicodeUTF8));
         label_11->setText(QApplication::translate("BFS_Graph", "         while(w){", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("BFS_Graph", "           if(!visit[w]){", 0, QApplication::UnicodeUTF8));
         label_13->setText(QApplication::translate("BFS_Graph", "             visit(w);  visited[w]=true;", 0, QApplication::UnicodeUTF8));
-        label_14->setText(QApplication::translate("BFS_Graph", "             EnQueue(Q,w);", 0, QApplication::UnicodeUTF8));
+        label_14->setText(QApplication::translate("BFS_Graph", "            EnQueue(Q,w);//\347\274\226\345\217\267\344\270\272w\351\241\266\347\202\271\345\205\245\351\230\237", 0, QApplication::UnicodeUTF8));
         label_15->setText(QApplication::translate("BFS_Graph", "            }", 0, QApplication::UnicodeUTF8));
         label_16->setText(QApplication::translate("BFS_Graph", "           w = NextADJ(G,v0,v);", 0, QApplication::UnicodeUTF8));
         label_17->setText(QApplication::translate("BFS_Graph", "          }", 0, QApplication::UnicodeUTF8));
         label_18->setText(QApplication::translate("BFS_Graph", "        }", 0, QApplication::UnicodeUTF8));
         label_19->setText(QApplication::translate("BFS_Graph", "      }", 0, QApplication::UnicodeUTF8));
         label_20->setText(QApplication::translate("BFS_Graph", "    }", 0, QApplication::UnicodeUTF8));
+        label_23->setText(QApplication::translate("BFS_Graph", "            //\347\247\273\345\212\250\345\210\260\344\270\213\344\270\200\346\235\241\350\276\271\357\274\214\345\217\226\344\270\213\344\270\200\344\270\252\351\202\273\346\216\245\347\202\271", 0, QApplication::UnicodeUTF8));
+        label_24->setText(QApplication::translate("BFS_Graph", "            //\346\240\207\350\256\260\347\274\226\345\217\267\344\270\272w\347\232\204\351\241\266\347\202\271\345\267\262\347\273\217\350\256\277\351\227\256", 0, QApplication::UnicodeUTF8));
+        label_25->setText(QApplication::translate("BFS_Graph", "   //\350\256\277\351\227\256\346\240\207\350\256\260\346\225\260\347\273\204\345\210\235\345\247\213\345\214\226", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

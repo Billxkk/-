@@ -50,6 +50,12 @@ DFS_Graph::DFS_Graph(QWidget *parent) :
      ui->label_26->setFont(uiLabel);
      ui->label_27->setFont(uiLabel);
      ui->label_28->setFont(uiLabel);
+     ui->label_11->setFont(uiLabel);
+     ui->label_12->setFont(uiLabel);
+     ui->label_13->setFont(uiLabel);
+     ui->label_29->setFont(uiLabel);
+     ui->label_30->setFont(uiLabel);
+     ui->label_31->setFont(uiLabel);
 
 
      the1 = new QLabel(ui->groupBox);

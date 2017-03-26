@@ -84,12 +84,12 @@ stackInView::stackInView(QWidget *parent) :
     word1->setFont(ft);
 
     word2 = new QLabel(ui->dockWidget);
-    word2->setText("{");
+    word2->setText("{//判断栈是否已满");
     word2->setGeometry(10,29,1000,15);
     word2->setFont(ft);
 
     word3 = new QLabel(ui->dockWidget);
-    word3->setText("     if(stackFull(v)");
+    word3->setText("     if(stackFull(v))");
     word3->setGeometry(10,46,1000,15);
     word3->setFont(ft);
 
@@ -109,12 +109,12 @@ stackInView::stackInView(QWidget *parent) :
     word6->setFont(ft);
 
     word7 = new QLabel(ui->dockWidget);
-    word7->setText("             v.top++;");
+    word7->setText("             v.top++;//栈顶后后移");
     word7->setGeometry(10,114,1000,15);
     word7->setFont(ft);
 
     word8 = new QLabel(ui->dockWidget);
-    word8->setText("             v.data[v.top]=b;");
+    word8->setText("             v.data[v.top]=b;//数据入栈");
     word8->setGeometry(10,131,1000,15);
     word8->setFont(ft);
 

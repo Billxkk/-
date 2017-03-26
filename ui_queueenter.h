@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'queueenter.ui'
 **
-** Created: Sun Mar 26 10:33:37 2017
+** Created: Sun Mar 26 15:17:53 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -76,6 +76,7 @@ public:
     QLabel *label_18;
     QLabel *label_19;
     QLabel *label_20;
+    QLabel *label_21;
     QGroupBox *groupBox_4;
     QLabel *label_30;
     QLabel *label_29;
@@ -271,20 +272,24 @@ public:
         label_16->setStyleSheet(QString::fromUtf8(""));
         label_17 = new QLabel(groupBox_3);
         label_17->setObjectName(QString::fromUtf8("label_17"));
-        label_17->setGeometry(QRect(12, 85, 401, 16));
+        label_17->setGeometry(QRect(12, 105, 401, 16));
         label_17->setStyleSheet(QString::fromUtf8(""));
         label_18 = new QLabel(groupBox_3);
         label_18->setObjectName(QString::fromUtf8("label_18"));
-        label_18->setGeometry(QRect(12, 105, 381, 16));
+        label_18->setGeometry(QRect(12, 125, 381, 16));
         label_18->setStyleSheet(QString::fromUtf8(""));
         label_19 = new QLabel(groupBox_3);
         label_19->setObjectName(QString::fromUtf8("label_19"));
-        label_19->setGeometry(QRect(12, 125, 371, 16));
+        label_19->setGeometry(QRect(12, 145, 371, 16));
         label_19->setStyleSheet(QString::fromUtf8(""));
         label_20 = new QLabel(groupBox_3);
         label_20->setObjectName(QString::fromUtf8("label_20"));
-        label_20->setGeometry(QRect(12, 145, 371, 16));
+        label_20->setGeometry(QRect(12, 165, 371, 16));
         label_20->setStyleSheet(QString::fromUtf8(""));
+        label_21 = new QLabel(groupBox_3);
+        label_21->setObjectName(QString::fromUtf8("label_21"));
+        label_21->setGeometry(QRect(12, 85, 401, 16));
+        label_21->setStyleSheet(QString::fromUtf8(""));
         groupBox_4 = new QGroupBox(centralwidget);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
         groupBox_4->setGeometry(QRect(370, 470, 351, 251));
@@ -360,6 +365,7 @@ public:
         label_18->setText(QApplication::translate("QueueEnter", "TextLabel", 0, QApplication::UnicodeUTF8));
         label_19->setText(QApplication::translate("QueueEnter", "TextLabel", 0, QApplication::UnicodeUTF8));
         label_20->setText(QApplication::translate("QueueEnter", "TextLabel", 0, QApplication::UnicodeUTF8));
+        label_21->setText(QApplication::translate("QueueEnter", "TextLabel", 0, QApplication::UnicodeUTF8));
         groupBox_4->setTitle(QApplication::translate("QueueEnter", "\345\207\272\351\230\237\347\256\227\346\263\225\345\214\272", 0, QApplication::UnicodeUTF8));
         label_30->setText(QApplication::translate("QueueEnter", "TextLabel", 0, QApplication::UnicodeUTF8));
         label_29->setText(QApplication::translate("QueueEnter", "TextLabel", 0, QApplication::UnicodeUTF8));

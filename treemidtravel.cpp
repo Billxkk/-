@@ -36,6 +36,8 @@ TreeMidTravel::TreeMidTravel(QWidget *parent) :
      ui->label_7->setFont(uiLabel);
      ui->label_8->setFont(uiLabel);
      ui->label_9->setFont(uiLabel);
+     ui->label_18->setFont(uiLabel);
+     ui->label_19->setFont(uiLabel);
 
 
      the1 = new QLabel(ui->groupBox);

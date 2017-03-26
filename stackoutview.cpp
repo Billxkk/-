@@ -85,7 +85,7 @@ stackOutView::stackOutView(QWidget *parent) :
     word2->setFont(ft);
 
     word3 = new QLabel(ui->dockWidget);
-    word3->setText("     if(isEmpty(v)");
+    word3->setText("     if(isEmpty(v))//ÅÐ¶ÏÕ»ÊÇ·ñÎª¿Õ");
     word3->setGeometry(10,46,1000,15);
     word3->setFont(ft);
 
@@ -105,12 +105,12 @@ stackOutView::stackOutView(QWidget *parent) :
     word6->setFont(ft);
 
     word7 = new QLabel(ui->dockWidget);
-    word7->setText("             b=v.data[v.top];");
+    word7->setText("             b=v.data[v.top];//È¡Õ»¶¥ÔªËØ");
     word7->setGeometry(10,114,1000,15);
     word7->setFont(ft);
 
     word8 = new QLabel(ui->dockWidget);
-    word8->setText("             v.top--;");
+    word8->setText("             v.top--;//Õ»¶¥¼õ1£¬¼´É¾³ýÕ»¶¥ÔªËØ");
     word8->setGeometry(10,131,1000,15);
     word8->setFont(ft);
 

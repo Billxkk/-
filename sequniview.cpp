@@ -165,7 +165,7 @@ seqUniView::seqUniView(QWidget *parent) :
     word1->setFont(ft);
 
     word2 = new QLabel(ui->dockWidgetContents_2);
-    word2->setText("{    i = j = 1; k =0;");
+    word2->setText("{    i = j = 1; k =0;//顺序表下标初始化");
     word2->setGeometry(10,16,1000,15);
     word2->setFont(ft);
 
@@ -210,7 +210,7 @@ seqUniView::seqUniView(QWidget *parent) :
     word10->setFont(ft);
 
     word11 = new QLabel(ui->dockWidgetContents_2);
-    word11->setText("     while( i <= va.last )");
+    word11->setText("     while( i <= va.last )//判断A表中是否有剩余元素");
     word11->setGeometry(10,160,1000,15);
     word11->setFont(ft);
 
@@ -220,7 +220,7 @@ seqUniView::seqUniView(QWidget *parent) :
     word12->setFont(ft);
 
     word13 = new QLabel(ui->dockWidgetContents_2);
-    word13->setText("     while(j <= vb.last )");
+    word13->setText("     while(j <= vb.last )//判断B表中是否有剩余元素");
     word13->setGeometry(10,192,1000,15);
     word13->setFont(ft);
 
@@ -230,7 +230,7 @@ seqUniView::seqUniView(QWidget *parent) :
     word14->setFont(ft);
 
     word15 = new QLabel(ui->dockWidgetContents_2);
-    word15->setText("     vc.last = k;");
+    word15->setText("     vc.last = k;//设置C表的长度值");
     word15->setGeometry(10,224,1000,15);
     word15->setFont(ft);
 

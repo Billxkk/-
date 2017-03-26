@@ -659,7 +659,7 @@
      <property name="geometry">
       <rect>
        <x>12</x>
-       <y>85</y>
+       <y>105</y>
        <width>401</width>
        <height>16</height>
       </rect>
@@ -675,7 +675,7 @@
      <property name="geometry">
       <rect>
        <x>12</x>
-       <y>105</y>
+       <y>125</y>
        <width>381</width>
        <height>16</height>
       </rect>
@@ -691,7 +691,7 @@
      <property name="geometry">
       <rect>
        <x>12</x>
-       <y>125</y>
+       <y>145</y>
        <width>371</width>
        <height>16</height>
       </rect>
@@ -707,8 +707,24 @@
      <property name="geometry">
       <rect>
        <x>12</x>
-       <y>145</y>
+       <y>165</y>
        <width>371</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>85</y>
+       <width>401</width>
        <height>16</height>
       </rect>
      </property>

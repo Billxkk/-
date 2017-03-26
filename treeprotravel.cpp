@@ -30,12 +30,16 @@ TreeProTravel::TreeProTravel(QWidget *parent) :
 
             QFont uiLabel("Microsoft YaHei", 12, 75);
     ui->label_3->setText("void ProVisit( Tree *bt ){");
+    ui->label_19->setText("         //判断当前结点是否为空");
     ui->label_4->setText("         if( bt ){");
-    ui->label_5->setText("               visit(bt);");
+    ui->label_5->setText("               visit(bt);//访问根结点");
     ui->label_6->setText("               ProVisit( bt->lChild );");
+    ui->label_18->setText("                 //递归调用左子树");
     ui->label_7->setText("               ProVisit( bt->rChild );");
-    ui->label_8->setText("          }");
+    ui->label_8->setText("                  //递归调用右子树 }");
     ui->label_9->setText("   }");
+    ui->label_18->setFont(uiLabel);
+    ui->label_19->setFont(uiLabel);
     ui->label_3->setFont(uiLabel);
     ui->label_4->setFont(uiLabel);
     ui->label_5->setFont(uiLabel);

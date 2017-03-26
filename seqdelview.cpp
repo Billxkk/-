@@ -26,12 +26,12 @@ seqDelView::seqDelView(QWidget *parent) :
     num1->setFont(ft);
 
     num2 = new QLabel(ui->dockWidget);
-    num2->setText("{ //将线性存储结构顺序表v中的第i个位置元素删除，i的有效取值范围为：1<=i<=v.last");
+    num2->setText("{ //将顺序表v中第i个位置元素删除，i取值范围为1<=i<=v.last");
     num2->setGeometry(10,35,1000,15);
     num2->setFont(ft);
 
     num3 = new QLabel(ui->dockWidget);
-    num3->setText("    if(i<1 || i>v.last+1)");
+    num3->setText("    if(i<1 || i>v.last+1)//判断删除序号的正确性");
     num3->setGeometry(10,50,1000,15);
     num3->setFont(ft);
 
@@ -41,7 +41,7 @@ seqDelView::seqDelView(QWidget *parent) :
     num4->setFont(ft);
 
     num5 = new QLabel(ui->dockWidget);
-    num5->setText("    if(v.last >= maxlen)");
+    num5->setText("   if(v.last <= 0)//判断当前顺序表是否为空");
     num5->setGeometry(10,80,1000,15);
     num5->setFont(ft);
 
@@ -51,7 +51,7 @@ seqDelView::seqDelView(QWidget *parent) :
     num6->setFont(ft);
 
     num7= new QLabel(ui->dockWidget);
-    num7->setText("    else{   for(j=i;j<=v.last;++j)");
+    num7->setText("    else{   for(j=i;j<=v.last;++j)//向前批量移动元素");
     num7->setGeometry(10,110,1000,15);
     num7->setFont(ft);
 
@@ -61,7 +61,7 @@ seqDelView::seqDelView(QWidget *parent) :
     num8->setFont(ft);
 
     num9 = new QLabel(ui->dockWidget);
-    num9->setText("               v.last=v.last-1;");
+    num9->setText("               v.last=v.last-1;//表长度减1");
     num9->setGeometry(10,140,1000,15);
     num9->setFont(ft);
 
@@ -133,6 +133,11 @@ void seqDelView::display(int pos,QString ele)
 
 void seqDelView::refresh()
 {
+    if(len>10)
+    {
+        QMessageBox::information(this,"错误","输入数据过多");
+        this->close();
+    }
     len=elementdel.size();
     num1->setPalette(workingColor);
     sleepOneSecond();
@@ -148,12 +153,12 @@ void seqDelView::refresh()
     }
         num3->setPalette(defaultColor);
         num5->setPalette(workingColor);
-        if(len>10)
+        if(len<=0)
             {
                 sleepOneSecond();
                 num5->setPalette(defaultColor);
                 num6->setPalette(workingColor);
-                QMessageBox::information(this,"错误","字符数目过多");
+                QMessageBox::information(this,"错误","顺序表为空");
                 this->close();
             }
         sleepOneSecond();

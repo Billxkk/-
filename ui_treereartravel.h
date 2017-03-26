@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'treereartravel.ui'
 **
-** Created: Sun Mar 26 11:34:19 2017
+** Created: Sun Mar 26 15:49:43 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -72,6 +72,8 @@ public:
     QLabel *label_22;
     QLabel *label_23;
     QLabel *label_24;
+    QLabel *label_25;
+    QLabel *label_26;
     QMenuBar *menubar;
 
     void setupUi(QMainWindow *TreeRearTravel)
@@ -277,20 +279,28 @@ public:
         label_20->setStyleSheet(QString::fromUtf8(""));
         label_21 = new QLabel(groupBox_2);
         label_21->setObjectName(QString::fromUtf8("label_21"));
-        label_21->setGeometry(QRect(12, 80, 351, 21));
+        label_21->setGeometry(QRect(12, 100, 351, 21));
         label_21->setStyleSheet(QString::fromUtf8(""));
         label_22 = new QLabel(groupBox_2);
         label_22->setObjectName(QString::fromUtf8("label_22"));
-        label_22->setGeometry(QRect(12, 100, 351, 21));
+        label_22->setGeometry(QRect(12, 140, 351, 21));
         label_22->setStyleSheet(QString::fromUtf8(""));
         label_23 = new QLabel(groupBox_2);
         label_23->setObjectName(QString::fromUtf8("label_23"));
-        label_23->setGeometry(QRect(12, 120, 351, 21));
+        label_23->setGeometry(QRect(12, 160, 351, 21));
         label_23->setStyleSheet(QString::fromUtf8(""));
         label_24 = new QLabel(groupBox_2);
         label_24->setObjectName(QString::fromUtf8("label_24"));
-        label_24->setGeometry(QRect(12, 140, 351, 21));
+        label_24->setGeometry(QRect(12, 180, 351, 21));
         label_24->setStyleSheet(QString::fromUtf8(""));
+        label_25 = new QLabel(groupBox_2);
+        label_25->setObjectName(QString::fromUtf8("label_25"));
+        label_25->setGeometry(QRect(12, 120, 351, 21));
+        label_25->setStyleSheet(QString::fromUtf8(""));
+        label_26 = new QLabel(groupBox_2);
+        label_26->setObjectName(QString::fromUtf8("label_26"));
+        label_26->setGeometry(QRect(12, 80, 351, 21));
+        label_26->setStyleSheet(QString::fromUtf8(""));
         TreeRearTravel->setCentralWidget(centralwidget);
         menubar = new QMenuBar(TreeRearTravel);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -325,12 +335,14 @@ public:
         label_17->setText(QString());
         groupBox_2->setTitle(QApplication::translate("TreeRearTravel", "\347\256\227\346\263\225\345\214\272", 0, QApplication::UnicodeUTF8));
         label_18->setText(QApplication::translate("TreeRearTravel", "void RearVisit( Tree *bt ){", 0, QApplication::UnicodeUTF8));
-        label_19->setText(QApplication::translate("TreeRearTravel", "     if( bt ){", 0, QApplication::UnicodeUTF8));
+        label_19->setText(QApplication::translate("TreeRearTravel", "   if( bt ){//\345\210\244\346\226\255\345\275\223\345\211\215\347\273\223\347\202\271\346\230\257\345\220\246\344\270\272\347\251\272", 0, QApplication::UnicodeUTF8));
         label_20->setText(QApplication::translate("TreeRearTravel", "         RearVisit(bt->lChild);", 0, QApplication::UnicodeUTF8));
         label_21->setText(QApplication::translate("TreeRearTravel", "         RearVisit(bt->rChild);", 0, QApplication::UnicodeUTF8));
-        label_22->setText(QApplication::translate("TreeRearTravel", "         Visit(bt);	 ", 0, QApplication::UnicodeUTF8));
+        label_22->setText(QApplication::translate("TreeRearTravel", "      Visit(bt);//\350\256\277\351\227\256\346\240\271\347\273\223\347\202\271 ", 0, QApplication::UnicodeUTF8));
         label_23->setText(QApplication::translate("TreeRearTravel", "       }	", 0, QApplication::UnicodeUTF8));
         label_24->setText(QApplication::translate("TreeRearTravel", "  }	   ", 0, QApplication::UnicodeUTF8));
+        label_25->setText(QApplication::translate("TreeRearTravel", "          //\351\200\222\345\275\222\350\260\203\347\224\250\345\217\263\345\255\220\346\240\221", 0, QApplication::UnicodeUTF8));
+        label_26->setText(QApplication::translate("TreeRearTravel", "           //\351\200\222\345\275\222\350\260\203\347\224\250\345\267\246\345\255\220\346\240\221", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

@@ -36,6 +36,8 @@ TreeRearTravel::TreeRearTravel(QWidget *parent) :
     ui->label_22->setFont(uiLabel);
     ui->label_23->setFont(uiLabel);
     ui->label_24->setFont(uiLabel);
+    ui->label_25->setFont(uiLabel);
+    ui->label_26->setFont(uiLabel);
 
 
     the7 = new QLabel(ui->groupBox);

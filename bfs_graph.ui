@@ -448,14 +448,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>   for(v=1;v&lt;=G.num;++v)visited[v]=false; //标志数组初始化</string>
+      <string>   for(v=1;v&lt;=G.num;++v)visited[v]=false;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>60</y>
+       <y>80</y>
        <width>571</width>
        <height>21</height>
       </rect>
@@ -464,14 +464,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>   InitQueue(Q);//初始化队列</string>
+      <string>   InitQueue(Q);//初始化循环顺序队列</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>80</y>
+       <y>100</y>
        <width>571</width>
        <height>21</height>
       </rect>
@@ -487,7 +487,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>100</y>
+       <y>120</y>
        <width>581</width>
        <height>21</height>
       </rect>
@@ -503,22 +503,6 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
-       <width>551</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true"/>
-     </property>
-     <property name="text">
-      <string>       visited[v] = true; visit(v);</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
        <y>140</y>
        <width>551</width>
        <height>21</height>
@@ -528,14 +512,30 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>       EnQueue(Q,v);</string>
+      <string>         visited[v] = true; visit(v);//遍历v所在的连通分量</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>551</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>         EnQueue(Q,v);//编号为v的顶点入队</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_8">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>160</y>
+       <y>180</y>
        <width>571</width>
        <height>21</height>
       </rect>
@@ -544,14 +544,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>       while(!QueueEmpty(Q)){</string>
+      <string>         while(!QueueEmpty(Q)){//队列不为空循环处理顶点</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_9">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>180</y>
+       <y>200</y>
        <width>581</width>
        <height>21</height>
       </rect>
@@ -560,14 +560,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>         DeQueue(Q,v0);</string>
+      <string>         DeQueue(Q,v0);//v0出队</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_10">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>200</y>
+       <y>220</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -576,14 +576,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>         w = FirstADJ(G,v0);</string>
+      <string>         w = FirstADJ(G,v0);//获得当前当前边链表的头指针</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_11">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>220</y>
+       <y>240</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -599,7 +599,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>240</y>
+       <y>260</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -615,7 +615,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>260</y>
+       <y>280</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -631,7 +631,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>280</y>
+       <y>320</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -640,14 +640,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>             EnQueue(Q,w);</string>
+      <string>            EnQueue(Q,w);//编号为w顶点入队</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_15">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>300</y>
+       <y>340</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -663,7 +663,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
+       <y>360</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -679,7 +679,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>340</y>
+       <y>400</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -695,7 +695,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>360</y>
+       <y>420</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -711,7 +711,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>380</y>
+       <y>440</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -727,7 +727,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>400</y>
+       <y>460</y>
        <width>591</width>
        <height>21</height>
       </rect>
@@ -737,6 +737,54 @@
      </property>
      <property name="text">
       <string>    }</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>380</y>
+       <width>591</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>            //移动到下一条边，取下一个邻接点</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_24">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>300</y>
+       <width>591</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>            //标记编号为w的顶点已经访问</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>551</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>   //访问标记数组初始化</string>
      </property>
     </widget>
    </widget>

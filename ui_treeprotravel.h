@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'treeprotravel.ui'
 **
-** Created: Sun Mar 26 11:12:27 2017
+** Created: Sun Mar 26 15:49:43 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -63,6 +63,8 @@ public:
     QLabel *label_7;
     QLabel *label_8;
     QLabel *label_9;
+    QLabel *label_18;
+    QLabel *label_19;
     QGroupBox *groupBox_3;
     QLabel *label_10;
     QLabel *label_11;
@@ -210,28 +212,36 @@ public:
         label_3->setStyleSheet(QString::fromUtf8(""));
         label_4 = new QLabel(groupBox_2);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(12, 40, 351, 21));
+        label_4->setGeometry(QRect(12, 60, 351, 21));
         label_4->setStyleSheet(QString::fromUtf8(""));
         label_5 = new QLabel(groupBox_2);
         label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(12, 60, 351, 21));
+        label_5->setGeometry(QRect(12, 80, 351, 21));
         label_5->setStyleSheet(QString::fromUtf8(""));
         label_6 = new QLabel(groupBox_2);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(12, 80, 351, 21));
+        label_6->setGeometry(QRect(12, 100, 351, 21));
         label_6->setStyleSheet(QString::fromUtf8(""));
         label_7 = new QLabel(groupBox_2);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(12, 100, 351, 21));
+        label_7->setGeometry(QRect(12, 140, 351, 21));
         label_7->setStyleSheet(QString::fromUtf8(""));
         label_8 = new QLabel(groupBox_2);
         label_8->setObjectName(QString::fromUtf8("label_8"));
-        label_8->setGeometry(QRect(12, 120, 351, 21));
+        label_8->setGeometry(QRect(12, 160, 351, 21));
         label_8->setStyleSheet(QString::fromUtf8(""));
         label_9 = new QLabel(groupBox_2);
         label_9->setObjectName(QString::fromUtf8("label_9"));
-        label_9->setGeometry(QRect(12, 140, 351, 21));
+        label_9->setGeometry(QRect(12, 180, 351, 21));
         label_9->setStyleSheet(QString::fromUtf8(""));
+        label_18 = new QLabel(groupBox_2);
+        label_18->setObjectName(QString::fromUtf8("label_18"));
+        label_18->setGeometry(QRect(12, 120, 351, 21));
+        label_18->setStyleSheet(QString::fromUtf8(""));
+        label_19 = new QLabel(groupBox_2);
+        label_19->setObjectName(QString::fromUtf8("label_19"));
+        label_19->setGeometry(QRect(12, 40, 351, 21));
+        label_19->setStyleSheet(QString::fromUtf8(""));
         groupBox_3 = new QGroupBox(centralwidget);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
         groupBox_3->setGeometry(QRect(410, 406, 211, 211));
@@ -323,6 +333,8 @@ public:
         label_7->setText(QApplication::translate("TreeProTravel", "TextLabel", 0, QApplication::UnicodeUTF8));
         label_8->setText(QApplication::translate("TreeProTravel", "TextLabel", 0, QApplication::UnicodeUTF8));
         label_9->setText(QApplication::translate("TreeProTravel", "TextLabel", 0, QApplication::UnicodeUTF8));
+        label_18->setText(QApplication::translate("TreeProTravel", "TextLabel", 0, QApplication::UnicodeUTF8));
+        label_19->setText(QApplication::translate("TreeProTravel", "TextLabel", 0, QApplication::UnicodeUTF8));
         groupBox_3->setTitle(QApplication::translate("TreeProTravel", "\346\240\210\345\214\272", 0, QApplication::UnicodeUTF8));
         label_10->setText(QApplication::translate("TreeProTravel", "\347\273\223\347\202\271\345\200\274", 0, QApplication::UnicodeUTF8));
         label_11->setText(QString());

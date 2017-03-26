@@ -25,12 +25,12 @@ seqInsView::seqInsView(QWidget *parent) :
 
 
     num1 = new QLabel(ui->dockWidget);
-    num1->setText("status ListIns(Sqlist &v,int i,Elem b)");
+    num1->setText("status ListIns(Sqlist &v,int i,Elem b){");
     num1->setGeometry(10,25,1000,15);
     num1->setFont(ft);
 
     num2 = new QLabel(ui->dockWidget);
-    num2->setText("{");
+    num2->setText("   //判断插入位置是否正确");
     num2->setGeometry(10,40,1000,15);
     num2->setFont(ft);
 
@@ -45,7 +45,7 @@ seqInsView::seqInsView(QWidget *parent) :
     num4->setFont(ft);
 
     num5 = new QLabel(ui->dockWidget);
-    num5->setText("    if(v.last >= maxlen)");
+    num5->setText("    if(v.last >= maxlen)//判断是否溢出");
     num5->setGeometry(10,85,1000,15);
     num5->setFont(ft);
 
@@ -60,17 +60,17 @@ seqInsView::seqInsView(QWidget *parent) :
     num7->setFont(ft);
 
     num8 = new QLabel(ui->dockWidget);
-    num8->setText("                   v.elem[j+1]=v.elem[j];");
+    num8->setText("                   v.elem[j+1]=v.elem[j];//往后移动元素");
     num8->setGeometry(10,130,1000,15);
     num8->setFont(ft);
 
     num9 = new QLabel(ui->dockWidget);
-    num9->setText("                v.elem[i]=b;");
+    num9->setText("                v.elem[i]=b;//填入插入内容");
     num9->setGeometry(10,145,1000,15);
     num9->setFont(ft);
 
     num10= new QLabel(ui->dockWidget);
-    num10->setText("               ++v.last;");
+    num10->setText("               ++v.last;//修改表长");
     num10->setGeometry(10,160,1000,15);
     num10->setFont(ft);
 

@@ -51,6 +51,9 @@ BFS_Graph::BFS_Graph(QWidget *parent) :
     ui->label_18->setFont(uiLabel);
     ui->label_19->setFont(uiLabel);
     ui->label_20->setFont(uiLabel);
+    ui->label_23->setFont(uiLabel);
+    ui->label_24->setFont(uiLabel);
+    ui->label_25->setFont(uiLabel);
 
     the1 = new QLabel(ui->groupBox);
     the1->setText("¡ü");

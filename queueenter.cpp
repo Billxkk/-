@@ -37,9 +37,11 @@ QueueEnter::QueueEnter(QWidget *parent) :
     ui->label_11->setPalette(disColor);
     ui->label_12->setPalette(disColor);
 
+
         QFont uiLabel("Microsoft YaHei", 10, 75);
          ui->label->setText("Status enQueue( Queue *Q, elelm e){");
     ui->label_15->setText("   if(((Q.rear + 1) % MaxLen) == Q.front)");
+    ui->label_21->setText("      //判断是否已经队满");
     ui->label_16->setText("         return ERROR;");
     ui->label_17->setText("   else{ Q->data[Q->rear] = x;");
     ui->label_18->setText("         Q->rear = ((Q->rear)+1)%MaxLen;");
@@ -47,13 +49,14 @@ QueueEnter::QueueEnter(QWidget *parent) :
     ui->label_20->setText(" }");
 
     ui->label_28->setText("Elem outQueue (Queue *Q){");
-    ui->label_29->setText("     if( Q.front == Q.rear)");
+    ui->label_29->setText("     if( Q.front == Q.rear)//判断是否队空");
     ui->label_30->setText("         return ERROR;");
     ui->label_31->setText("      else{");
     ui->label_32->setText("        Q->front = (Q->front+1)%MaxLen;");
     ui->label_33->setText("          }");
     ui->label_34->setText(" }");
     ui->label->setFont(uiLabel);
+    ui->label_21->setFont(uiLabel);
     ui->label_15->setFont(uiLabel);
     ui->label_16->setFont(uiLabel);
     ui->label_17->setFont(uiLabel);

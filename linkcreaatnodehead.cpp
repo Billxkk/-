@@ -104,11 +104,11 @@ linkCreaatNodeHead::linkCreaatNodeHead(QWidget *parent) :
     the13->setPalette(elseColor);
 
         ui->label->setText("<b>void CreatList(LinkList &L,int n){</b>");
-    ui->label_3->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L = new LinkList;</b>");
-    ui->label_4->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L->next = NULL;<b/>");
-    ui->label_5->setText("<b>&nbsp;&nbsp;for(i = n;i > 0;--i){<b/>");
-    ui->label_6->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;p = new LinkLIst; cin>>p->data;<b/>");
-    ui->label_7->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;p->next = L->next;<b/>");
+    ui->label_3->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L = new LinkList;//产生头结点</b>");
+    ui->label_4->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L->next = NULL;//设置头结点next指针为空<b/>");
+    ui->label_5->setText("<b>&nbsp;&nbsp;for(i = n;i > 0;--i){//头插法循环插入结点<b/>");
+    ui->label_6->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;p = new LinkLIst; cin>>p->data;//动态申请内存，产生新结点<b/>");
+    ui->label_7->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;p->next = L->next;//将新结点链接到表头，使成为首元素结点<b/>");
     ui->label_8->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L->next = p;<b/>");
     ui->label_9->setText("<b>&nbsp;&nbsp;&nbsp;}<b/>");
     ui->label_10->setText("<b>}</b>");

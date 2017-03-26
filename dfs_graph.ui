@@ -466,14 +466,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>Boolean visited[MAX];//访问标志数组</string>
+      <string>Boolean visited[MAX];</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
+       <y>60</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -489,7 +489,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>60</y>
+       <y>80</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -505,7 +505,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>80</y>
+       <y>100</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -521,7 +521,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>100</y>
+       <y>140</y>
        <width>271</width>
        <height>21</height>
       </rect>
@@ -530,14 +530,14 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>      visited[i] = false;//初始化</string>
+      <string>      visited[i] = false;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
+       <y>160</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -553,7 +553,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>140</y>
+       <y>180</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -569,7 +569,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>160</y>
+       <y>220</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -585,7 +585,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>180</y>
+       <y>240</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -601,7 +601,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>200</y>
+       <y>260</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -611,6 +611,54 @@
      </property>
      <property name="text">
       <string> }</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>      //从未访问的邻接点继续访问</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>      //访问标记数组初始化</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>281</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>//访问标记数组</string>
      </property>
     </widget>
    </widget>
@@ -630,7 +678,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>160</y>
+       <y>220</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -646,7 +694,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>180</y>
+       <y>240</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -662,7 +710,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>80</y>
+       <y>120</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -678,7 +726,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>140</y>
+       <y>200</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -710,7 +758,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>60</y>
+       <y>80</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -726,7 +774,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
+       <y>160</y>
        <width>261</width>
        <height>21</height>
       </rect>
@@ -758,7 +806,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>100</y>
+       <y>140</y>
        <width>271</width>
        <height>21</height>
       </rect>
@@ -768,6 +816,54 @@
      </property>
      <property name="text">
       <string>     if(!visited[w])</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>      //递归访问顶点v的邻接点</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>   //w为顶点v的邻接点</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>   //访问并标记标号为v的结点</string>
      </property>
     </widget>
    </widget>

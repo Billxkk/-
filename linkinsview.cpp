@@ -24,12 +24,12 @@ linkInsView::linkInsView(QWidget *parent) :
     QFont uiLabel("Microsoft YaHei", 10, 75);
     ui->label_2->setText("Status ListInsert(LinkList &L,int i,elem e){");
     ui->label_3->setText("         p = L; j = 0;");
-    ui->label_4->setText("         while( p && j<i-1){");
+    ui->label_4->setText("         while( p && j<i-1){//搜索插入位置的前一个结点");
     ui->label_5->setText("                   p = p->next; ++j; }");
-    ui->label_6->setText("         if( p || j>i-1)");
+    ui->label_6->setText("         if( p == NULL)//判断插入序号是否正确");
     ui->label_7->setText("               return ERROR;");
     ui->label_8->setText("         s = new LinkList; s->data = e;");
-    ui->label_9->setText("         s->next = p->next; p->next = s;");
+    ui->label_9->setText("         s->next = p->next; p->next = s;//插入新结点");
     ui->label_10->setText("        return OK;");
     ui->label_11->setText(" }");
     ui->label_2->setFont(uiLabel);
