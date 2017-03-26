@@ -20,6 +20,7 @@ linkDelView::linkDelView(QWidget *parent) :
     ui->frashButton->setEnabled(false);
     ui->pauseButton->setEnabled(false);
 
+    QFont ft("Microsoft YaHei", 10, 75);
     ui->label_2->setText("Status ListDelete( LinkList &L, Elem e){");
     ui->label_3->setText("       p = L; j = o;");
     ui->label_4->setText("      while( p->next ){");
@@ -33,54 +34,67 @@ linkDelView::linkDelView(QWidget *parent) :
     ui->label_12->setText("         delete q ;");
     ui->label_13->setText("       return OK;");
     ui->label_14->setText("  }");
+    ui->label_2->setFont(ft);
+    ui->label_3->setFont(ft);
+    ui->label_4->setFont(ft);
+    ui->label_5->setFont(ft);
+    ui->label_6->setFont(ft);
+    ui->label_7->setFont(ft);
+    ui->label_8->setFont(ft);
+    ui->label_9->setFont(ft);
+    ui->label_10->setFont(ft);
+    ui->label_11->setFont(ft);
+    ui->label_12->setFont(ft);
+    ui->label_13->setFont(ft);
+    ui->label_14->setFont(ft);
 
     the1 = new QLabel(ui->groupBox);
-    the1->setText("----->");
+    the1->setText("--->");
     the1->setGeometry(115,40,35,25);
     the1->setPalette(elseColor);
 
     the2 = new QLabel(ui->groupBox);
-    the2->setText("----->");
+    the2->setText("--->");
     the2->setGeometry(175,40,35,25);
     the2->setPalette(elseColor);
 
     the3 = new QLabel(ui->groupBox);
-    the3->setText("----->");
+    the3->setText("--->");
     the3->setGeometry(235,40,35,25);
     the3->setPalette(elseColor);
 
     the4 = new QLabel(ui->groupBox);
-    the4->setText("----->");
+    the4->setText("--->");
     the4->setGeometry(295,40,35,25);
     the4->setPalette(elseColor);
 
     the5 = new QLabel(ui->groupBox);
-    the5->setText("----->");
+    the5->setText("--->");
     the5->setGeometry(355,40,35,25);
     the5->setPalette(elseColor);
 
     the6 = new QLabel(ui->groupBox);
-    the6->setText("----->");
+    the6->setText("--->");
     the6->setGeometry(415,40,35,25);
     the6->setPalette(elseColor);
 
     the7 = new QLabel(ui->groupBox);
-    the7->setText("----->");
+    the7->setText("--->");
     the7->setGeometry(475,40,35,25);
     the7->setPalette(elseColor);
 
     the8 = new QLabel(ui->groupBox);
-    the8->setText("----->");
+    the8->setText("--->");
     the8->setGeometry(535,40,35,25);
     the8->setPalette(elseColor);
 
     the9 = new QLabel(ui->groupBox);
-    the9->setText("----->");
+    the9->setText("--->");
     the9->setGeometry(595,40,35,25);
     the9->setPalette(elseColor);
 
     the10 = new QLabel(ui->groupBox);
-    the10->setText("----->");
+    the10->setText("--->");
     the10->setGeometry(655,40,35,25);
     the10->setPalette(elseColor);
 

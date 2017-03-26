@@ -14,7 +14,7 @@ linkCreaatNodeHead::linkCreaatNodeHead(QWidget *parent) :
     pause=0;
     startSign=0;
     ft.setPointSize(20);
-
+    ft.setBold(true);
     currentColor.setColor(QPalette::WindowText,Qt::black);
     elseColor.setColor(QPalette::WindowText,Qt::white);
     redColor.setColor(QPalette::WindowText,Qt::red);
@@ -26,62 +26,62 @@ linkCreaatNodeHead::linkCreaatNodeHead(QWidget *parent) :
     ui->nodelineEdit_2->setFrame(0);//Í·½Úµã
 
     the1 = new QLabel(ui->groupBox);
-    the1->setText("------->");
+    the1->setText("--->");
     the1->setGeometry(205,40,35,25);
     the1->setFont(ft);
     the1->setPalette(elseColor);
 
     the2 = new QLabel(ui->groupBox);
-    the2->setText("------->");
+    the2->setText("--->");
     the2->setGeometry(265,40,35,25);
     the2->setFont(ft);
     the2->setPalette(elseColor);
 
     the3 = new QLabel(ui->groupBox);
-    the3->setText("------->");
+    the3->setText("--->");
     the3->setGeometry(325,40,35,25);
     the3->setFont(ft);
     the3->setPalette(elseColor);
 
     the4 = new QLabel(ui->groupBox);
-    the4->setText("------->");
+    the4->setText("--->");
     the4->setGeometry(385,40,35,25);
     the4->setFont(ft);
     the4->setPalette(elseColor);
 
     the5 = new QLabel(ui->groupBox);
-    the5->setText("------->");
+    the5->setText("--->");
     the5->setGeometry(445,40,35,25);
     the5->setFont(ft);
     the5->setPalette(elseColor);
 
     the6 = new QLabel(ui->groupBox);
-    the6->setText("------->");
+    the6->setText("--->");
     the6->setGeometry(505,40,35,25);
     the6->setFont(ft);
     the6->setPalette(elseColor);
 
     the7 = new QLabel(ui->groupBox);
-    the7->setText("------->");
+    the7->setText("--->");
     the7->setGeometry(565,40,35,25);
     the7->setFont(ft);
     the7->setPalette(elseColor);
 
     the8 = new QLabel(ui->groupBox);
-    the8->setText("------->");
+    the8->setText("--->");
     the8->setGeometry(625,40,35,25);
     the8->setFont(ft);
     the8->setPalette(elseColor);
 
     the9 = new QLabel(ui->groupBox);
-    the9->setText("------>");
+    the9->setText("--->");
     the9->setGeometry(685,40,35,25);
     the9->setFont(ft);
     the9->setPalette(elseColor);
 
     the10 = new QLabel(ui->groupBox);
-    the10->setText("------>");
-    the10->setGeometry(145,40,30,25);
+    the10->setText("--->");
+    the10->setGeometry(145,40,50,25);
     the10->setFont(ft);
     the10->setPalette(elseColor);
 
@@ -98,20 +98,20 @@ linkCreaatNodeHead::linkCreaatNodeHead(QWidget *parent) :
     the12->setPalette(elseColor);
 
     the13 = new QLabel(ui->groupBox);
-    the13->setText("---/-->");
-    the13->setGeometry(115,40,30,25);
+    the13->setText("-/->");
+    the13->setGeometry(115,40,50,25);
     the13->setFont(ft);
     the13->setPalette(elseColor);
 
-        ui->label->setText("void CreatList(LinkList &L,int n){");
-    ui->label_3->setText("      L = new LinkList;");
-    ui->label_4->setText("      L->next = NULL;");
-    ui->label_5->setText("   for(i = n;i > 0;--i){");
-    ui->label_6->setText("      p = new LinkLIst; cin>>p->data;");
-    ui->label_7->setText("      p->next = L->next;");
-    ui->label_8->setText("      L->next = p;");
-    ui->label_9->setText("     }");
-    ui->label_10->setText("}");
+        ui->label->setText("<b>void CreatList(LinkList &L,int n){</b>");
+    ui->label_3->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L = new LinkList;</b>");
+    ui->label_4->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L->next = NULL;<b/>");
+    ui->label_5->setText("<b>&nbsp;&nbsp;for(i = n;i > 0;--i){<b/>");
+    ui->label_6->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;p = new LinkLIst; cin>>p->data;<b/>");
+    ui->label_7->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;p->next = L->next;<b/>");
+    ui->label_8->setText("<b>&nbsp;&nbsp;&nbsp;&nbsp;L->next = p;<b/>");
+    ui->label_9->setText("<b>&nbsp;&nbsp;&nbsp;}<b/>");
+    ui->label_10->setText("<b>}</b>");
 
     int i=0;
     while(i<=len)

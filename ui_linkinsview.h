@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'linkinsview.ui'
 **
-** Created: Sat Mar 25 09:57:59 2017
+** Created: Sun Mar 26 10:11:51 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -96,13 +96,13 @@ public:
         groupBox->setMinimumSize(QSize(0, 0));
         groupBox->setMaximumSize(QSize(800, 300));
         QFont font;
-        font.setFamily(QString::fromUtf8("Agency FB"));
-        font.setPointSize(9);
+        font.setFamily(QString::fromUtf8("Microsoft YaHei UI"));
+        font.setPointSize(12);
         font.setBold(false);
         font.setItalic(false);
-        font.setWeight(50);
+        font.setWeight(9);
         groupBox->setFont(font);
-        groupBox->setStyleSheet(QString::fromUtf8("font: 9pt \"Agency FB\";"));
+        groupBox->setStyleSheet(QString::fromUtf8("font: 75 12pt \"Microsoft YaHei UI\";"));
         nodelabel = new QLabel(groupBox);
         nodelabel->setObjectName(QString::fromUtf8("nodelabel"));
         nodelabel->setGeometry(QRect(20, 40, 70, 25));
@@ -292,9 +292,10 @@ public:
         ButtonBox = new QGroupBox(centralwidget);
         ButtonBox->setObjectName(QString::fromUtf8("ButtonBox"));
         ButtonBox->setGeometry(QRect(20, 20, 755, 80));
+        ButtonBox->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         layoutWidget = new QWidget(ButtonBox);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(120, 30, 541, 30));
+        layoutWidget->setGeometry(QRect(120, 30, 541, 35));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -353,43 +354,43 @@ public:
         label_2 = new QLabel(dockWidgetContents_2);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(20, 10, 731, 21));
-        label_2->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_2->setStyleSheet(QString::fromUtf8(""));
         label_3 = new QLabel(dockWidgetContents_2);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(20, 30, 731, 21));
-        label_3->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_3->setStyleSheet(QString::fromUtf8(""));
         label_4 = new QLabel(dockWidgetContents_2);
         label_4->setObjectName(QString::fromUtf8("label_4"));
         label_4->setGeometry(QRect(20, 50, 731, 21));
-        label_4->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_4->setStyleSheet(QString::fromUtf8(""));
         label_5 = new QLabel(dockWidgetContents_2);
         label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(20, 70, 731, 21));
-        label_5->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_5->setStyleSheet(QString::fromUtf8(""));
         label_6 = new QLabel(dockWidgetContents_2);
         label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setGeometry(QRect(20, 90, 731, 21));
-        label_6->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_6->setStyleSheet(QString::fromUtf8(""));
         label_7 = new QLabel(dockWidgetContents_2);
         label_7->setObjectName(QString::fromUtf8("label_7"));
         label_7->setGeometry(QRect(20, 110, 731, 21));
-        label_7->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_7->setStyleSheet(QString::fromUtf8(""));
         label_8 = new QLabel(dockWidgetContents_2);
         label_8->setObjectName(QString::fromUtf8("label_8"));
         label_8->setGeometry(QRect(20, 130, 731, 21));
-        label_8->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_8->setStyleSheet(QString::fromUtf8(""));
         label_9 = new QLabel(dockWidgetContents_2);
         label_9->setObjectName(QString::fromUtf8("label_9"));
         label_9->setGeometry(QRect(20, 150, 731, 21));
-        label_9->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_9->setStyleSheet(QString::fromUtf8(""));
         label_10 = new QLabel(dockWidgetContents_2);
         label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setGeometry(QRect(20, 170, 731, 21));
-        label_10->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_10->setStyleSheet(QString::fromUtf8(""));
         label_11 = new QLabel(dockWidgetContents_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
         label_11->setGeometry(QRect(20, 190, 731, 21));
-        label_11->setStyleSheet(QString::fromUtf8("font: 11pt \"\345\256\213\344\275\223\";"));
+        label_11->setStyleSheet(QString::fromUtf8(""));
         dockWidget->setWidget(dockWidgetContents_2);
         linkInsView->addDockWidget(static_cast<Qt::DockWidgetArea>(8), dockWidget);
 

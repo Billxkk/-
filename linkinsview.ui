@@ -37,15 +37,15 @@
     </property>
     <property name="font">
      <font>
-      <family>Agency FB</family>
-      <pointsize>9</pointsize>
-      <weight>50</weight>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>12</pointsize>
+      <weight>9</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 9pt &quot;Agency FB&quot;;</string>
+     <string notr="true">font: 75 12pt &quot;Microsoft YaHei UI&quot;;</string>
     </property>
     <property name="title">
      <string>移动过程演示:</string>
@@ -768,6 +768,9 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
     <property name="title">
      <string>功能区</string>
     </property>
@@ -777,7 +780,7 @@
        <x>120</x>
        <y>30</y>
        <width>541</width>
-       <height>30</height>
+       <height>35</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -912,7 +915,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -928,7 +931,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -944,7 +947,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -960,7 +963,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -976,7 +979,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -992,7 +995,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -1008,7 +1011,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -1024,7 +1027,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -1040,7 +1043,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>
@@ -1056,7 +1059,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>TextLabel</string>

@@ -21,6 +21,7 @@ linkInsView::linkInsView(QWidget *parent) :
     ui->frashButton->setEnabled(false);
     ui->pauseButton->setEnabled(false);
 
+    QFont uiLabel("Microsoft YaHei", 10, 75);
     ui->label_2->setText("Status ListInsert(LinkList &L,int i,elem e){");
     ui->label_3->setText("         p = L; j = 0;");
     ui->label_4->setText("         while( p && j<i-1){");
@@ -31,66 +32,74 @@ linkInsView::linkInsView(QWidget *parent) :
     ui->label_9->setText("         s->next = p->next; p->next = s;");
     ui->label_10->setText("        return OK;");
     ui->label_11->setText(" }");
-
-
+    ui->label_2->setFont(uiLabel);
+    ui->label_3->setFont(uiLabel);
+    ui->label_4->setFont(uiLabel);
+    ui->label_5->setFont(uiLabel);
+    ui->label_6->setFont(uiLabel);
+    ui->label_7->setFont(uiLabel);
+    ui->label_8->setFont(uiLabel);
+    ui->label_9->setFont(uiLabel);
+    ui->label_10->setFont(uiLabel);
+    ui->label_11->setFont(uiLabel);
 
 
     the1 = new QLabel(ui->groupBox);
-    the1->setText("----->");
+    the1->setText("--->");
     the1->setGeometry(115,40,35,25);
     the1->setFont(ft);
     the1->setPalette(elseColor);
 
     the2 = new QLabel(ui->groupBox);
-    the2->setText("----->");
+    the2->setText("--->");
     the2->setGeometry(175,40,35,25);
     the2->setFont(ft);
     the2->setPalette(elseColor);
 
     the3 = new QLabel(ui->groupBox);
-    the3->setText("----->");
+    the3->setText("--->");
     the3->setGeometry(235,40,35,25);
     the3->setFont(ft);
     the3->setPalette(elseColor);
 
     the4 = new QLabel(ui->groupBox);
-    the4->setText("----->");
+    the4->setText("--->");
     the4->setGeometry(295,40,35,25);
     the4->setFont(ft);
     the4->setPalette(elseColor);
 
     the5 = new QLabel(ui->groupBox);
-    the5->setText("----->");
+    the5->setText("--->");
     the5->setGeometry(355,40,35,25);
     the5->setFont(ft);
     the5->setPalette(elseColor);
 
     the6 = new QLabel(ui->groupBox);
-    the6->setText("----->");
+    the6->setText("--->");
     the6->setGeometry(415,40,35,25);
     the6->setFont(ft);
     the6->setPalette(elseColor);
 
     the7 = new QLabel(ui->groupBox);
-    the7->setText("----->");
+    the7->setText("--->");
     the7->setGeometry(475,40,35,25);
     the7->setFont(ft);
     the7->setPalette(elseColor);
 
     the8 = new QLabel(ui->groupBox);
-    the8->setText("----->");
+    the8->setText("--->");
     the8->setGeometry(535,40,35,25);
     the8->setFont(ft);
     the8->setPalette(elseColor);
 
     the9 = new QLabel(ui->groupBox);
-    the9->setText("----->");
+    the9->setText("--->");
     the9->setGeometry(595,40,35,25);
     the9->setFont(ft);
     the9->setPalette(elseColor);
 
     the10 = new QLabel(ui->groupBox);
-    the10->setText("----->");
+    the10->setText("--->");
     the10->setGeometry(655,40,35,25);
     the10->setFont(ft);
     the10->setPalette(elseColor);
