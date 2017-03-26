@@ -144,7 +144,7 @@ seqUniView::seqUniView(QWidget *parent) :
 
 
     the25 = new QLabel(ui->groupBox);
-    the25->setText("<font size=5><b>></b></font>");
+    the25->setText(">");
     the25->setGeometry(310,175,10,25);
     the25->setPalette(elseColor);
 
@@ -154,7 +154,7 @@ seqUniView::seqUniView(QWidget *parent) :
     the26->setPalette(elseColor);
 
     the27 = new QLabel(ui->groupBox);
-    the27->setText("<font size=5><b>=</b></font>");
+    the27->setText("=");
     the27->setGeometry(330,175,10,25);
     the27->setPalette(elseColor);
 

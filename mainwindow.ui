@@ -6,279 +6,339 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>451</width>
+    <width>750</width>
     <height>469</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>469</height>
+   </size>
+  </property>
   <property name="maximumSize">
    <size>
-    <width>451</width>
+    <width>750</width>
     <height>469</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>title</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+  </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QTabWidget" name="tabWidget">
+   <widget class="QPushButton" name="seqInsButton">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>451</width>
-      <height>441</height>
+      <x>83</x>
+      <y>102</y>
+      <width>60</width>
+      <height>54</height>
      </rect>
     </property>
-    <property name="tabShape">
-     <enum>QTabWidget::Triangular</enum>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
     </property>
-    <property name="currentIndex">
-     <number>0</number>
+    <property name="text">
+     <string>插入</string>
     </property>
-    <property name="elideMode">
-     <enum>Qt::ElideNone</enum>
+    <property name="flat">
+     <bool>true</bool>
     </property>
-    <property name="tabsClosable">
-     <bool>false</bool>
+   </widget>
+   <widget class="QPushButton" name="seqDelButton">
+    <property name="geometry">
+     <rect>
+      <x>82</x>
+      <y>190</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
     </property>
-    <widget class="QWidget" name="seqList_tab">
-     <attribute name="title">
-      <string>顺序表</string>
-     </attribute>
-     <widget class="QPushButton" name="seqInsButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>50</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>顺序表插入结点</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="seqDelButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>130</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>顺序表删除结点</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="seqUniButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>210</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>顺序表合并</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="linkedList_tab">
-     <attribute name="title">
-      <string>链表</string>
-     </attribute>
-     <widget class="QPushButton" name="linkCreatButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>50</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>创建链表</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="linkInsButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>130</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>链表插入结点</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="linkDelButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>210</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>链表删除结点</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="stack_tab">
-     <attribute name="title">
-      <string>栈</string>
-     </attribute>
-     <widget class="QPushButton" name="enterStackButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>50</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>入栈</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="outStackButton">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>130</y>
-        <width>111</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>出栈</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="queue_tab">
-     <attribute name="title">
-      <string>队列</string>
-     </attribute>
-     <widget class="QPushButton" name="circleQueueButton">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>90</y>
-        <width>141</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>循环队列 入队/出队</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tree_tab">
-     <attribute name="title">
-      <string>树</string>
-     </attribute>
-     <widget class="QGroupBox" name="groupBox">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>30</y>
-        <width>401</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>树的遍历</string>
-      </property>
-      <widget class="QPushButton" name="proButton">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>30</y>
-         <width>75</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>先序</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="MidButton">
-       <property name="geometry">
-        <rect>
-         <x>160</x>
-         <y>30</y>
-         <width>75</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>中序</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="rearButton">
-       <property name="geometry">
-        <rect>
-         <x>290</x>
-         <y>30</y>
-         <width>75</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>后序</string>
-       </property>
-      </widget>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="graph_tab">
-     <attribute name="title">
-      <string>图</string>
-     </attribute>
-     <widget class="QGroupBox" name="groupBox_2">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>20</y>
-        <width>421</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>图的遍历</string>
-      </property>
-      <widget class="QPushButton" name="dfsButton">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>30</y>
-         <width>101</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>深度优先搜索</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="bfsButton">
-       <property name="geometry">
-        <rect>
-         <x>240</x>
-         <y>30</y>
-         <width>101</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>广度优先搜索</string>
-       </property>
-      </widget>
-     </widget>
-    </widget>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="seqUniButton">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>148</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>合并</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rearButton">
+    <property name="geometry">
+     <rect>
+      <x>402</x>
+      <y>371</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>后序</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MidButton">
+    <property name="geometry">
+     <rect>
+      <x>402</x>
+      <y>303</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>中序</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="proButton">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>342</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>先序</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dfsButton">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>220</y>
+      <width>72</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>深度遍历</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bfsButton">
+    <property name="geometry">
+     <rect>
+      <x>628</x>
+      <y>263</y>
+      <width>72</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>广度遍历</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="circleQueueButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>10</y>
+      <width>72</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>循环队列</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="enterStackButton">
+    <property name="geometry">
+     <rect>
+      <x>561</x>
+      <y>119</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>入栈</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="outStackButton">
+    <property name="geometry">
+     <rect>
+      <x>502</x>
+      <y>152</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>出栈</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linkCreatButton">
+    <property name="geometry">
+     <rect>
+      <x>227</x>
+      <y>202</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>创建</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linkInsButton">
+    <property name="geometry">
+     <rect>
+      <x>287</x>
+      <y>250</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>插入</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linkDelButton">
+    <property name="geometry">
+     <rect>
+      <x>227</x>
+      <y>298</y>
+      <width>60</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SeqBigImg">
+    <property name="geometry">
+     <rect>
+      <x>131</x>
+      <y>120</y>
+      <width>114</width>
+      <height>103</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SeqBigImg</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LinkBigImg">
+    <property name="geometry">
+     <rect>
+      <x>138</x>
+      <y>234</y>
+      <width>102</width>
+      <height>92</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SeqBigImg</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="QueueBigImg">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>40</y>
+      <width>102</width>
+      <height>92</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SeqBigImg</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="StackBigImg">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>100</y>
+      <width>90</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SeqBigImg</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TreeBigImg">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>250</y>
+      <width>90</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SeqBigImg</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GraphBigImg">
+    <property name="geometry">
+     <rect>
+      <x>542</x>
+      <y>301</y>
+      <width>90</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SeqBigImg</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -286,8 +346,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>451</width>
-     <height>23</height>
+     <width>750</width>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="option">

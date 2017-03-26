@@ -1,10 +1,21 @@
 <RCC>
     <qresource prefix="/">
         <file>img/bitbug_favicon.ico</file>
-        <file>img/95c58PICEZC.jpg</file>
-        <file>img/CoverBackground1.jpg</file>
         <file>img/timg7.jpg</file>
         <file>img/img1.jpg</file>
         <file>img/img2.jpg</file>
+        <file>img/seq.png</file>
+        <file>img/link.png</file>
+        <file>img/graph.png</file>
+        <file>img/queue.png</file>
+        <file>img/stack.png</file>
+        <file>img/tree.png</file>
+        <file>img/graphBig.png</file>
+        <file>img/linkBig.png</file>
+        <file>img/queueBig.png</file>
+        <file>img/seqBig.png</file>
+        <file>img/stackBig.png</file>
+        <file>img/treeBig.png</file>
+        <file>img/CoverBackground1.jpg</file>
     </qresource>
 </RCC>

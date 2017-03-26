@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'seqdelview.ui'
 **
-** Created: Sat Mar 25 09:57:59 2017
+** Created: Sat Mar 25 20:40:42 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -76,14 +76,16 @@ public:
         if (seqDelView->objectName().isEmpty())
             seqDelView->setObjectName(QString::fromUtf8("seqDelView"));
         seqDelView->resize(664, 600);
+        seqDelView->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         centralwidget = new QWidget(seqDelView);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         ButtonBox = new QGroupBox(centralwidget);
         ButtonBox->setObjectName(QString::fromUtf8("ButtonBox"));
         ButtonBox->setGeometry(QRect(30, 20, 601, 80));
+        ButtonBox->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         layoutWidget_2 = new QWidget(ButtonBox);
         layoutWidget_2->setObjectName(QString::fromUtf8("layoutWidget_2"));
-        layoutWidget_2->setGeometry(QRect(30, 30, 541, 25));
+        layoutWidget_2->setGeometry(QRect(30, 30, 541, 35));
         horizontalLayout_2 = new QHBoxLayout(layoutWidget_2);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -134,20 +136,20 @@ public:
         groupBox->setMinimumSize(QSize(0, 0));
         groupBox->setMaximumSize(QSize(840, 300));
         QFont font;
-        font.setFamily(QString::fromUtf8("Agency FB"));
-        font.setPointSize(9);
+        font.setFamily(QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221"));
+        font.setPointSize(13);
         font.setBold(false);
         font.setItalic(false);
         font.setWeight(50);
         groupBox->setFont(font);
-        groupBox->setStyleSheet(QString::fromUtf8("font: 9pt \"Agency FB\";"));
+        groupBox->setStyleSheet(QString::fromUtf8("font: 13pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         lineEdit_11 = new QLineEdit(groupBox);
         lineEdit_11->setObjectName(QString::fromUtf8("lineEdit_11"));
         lineEdit_11->setGeometry(QRect(13, 40, 25, 25));
         lineEdit_11->setMinimumSize(QSize(25, 25));
         lineEdit_11->setMaximumSize(QSize(25, 25));
         lineEdit_11->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_11->setReadOnly(true);
         lineEdit_12 = new QLineEdit(groupBox);
@@ -156,7 +158,7 @@ public:
         lineEdit_12->setMinimumSize(QSize(25, 25));
         lineEdit_12->setMaximumSize(QSize(25, 25));
         lineEdit_12->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_12->setReadOnly(true);
         lineEdit_13 = new QLineEdit(groupBox);
@@ -165,7 +167,7 @@ public:
         lineEdit_13->setMinimumSize(QSize(25, 25));
         lineEdit_13->setMaximumSize(QSize(25, 25));
         lineEdit_13->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_13->setReadOnly(true);
         lineEdit_14 = new QLineEdit(groupBox);
@@ -174,7 +176,7 @@ public:
         lineEdit_14->setMinimumSize(QSize(25, 25));
         lineEdit_14->setMaximumSize(QSize(25, 25));
         lineEdit_14->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_14->setReadOnly(true);
         lineEdit_15 = new QLineEdit(groupBox);
@@ -183,7 +185,7 @@ public:
         lineEdit_15->setMinimumSize(QSize(25, 25));
         lineEdit_15->setMaximumSize(QSize(25, 25));
         lineEdit_15->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_15->setReadOnly(true);
         lineEdit_16 = new QLineEdit(groupBox);
@@ -192,8 +194,8 @@ public:
         lineEdit_16->setMinimumSize(QSize(25, 25));
         lineEdit_16->setMaximumSize(QSize(25, 25));
         lineEdit_16->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"color: rgb(255, 0, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"color: rgb(255, 0, 0);"));
         lineEdit_16->setReadOnly(true);
         lineEdit_17 = new QLineEdit(groupBox);
         lineEdit_17->setObjectName(QString::fromUtf8("lineEdit_17"));
@@ -201,7 +203,7 @@ public:
         lineEdit_17->setMinimumSize(QSize(25, 25));
         lineEdit_17->setMaximumSize(QSize(25, 25));
         lineEdit_17->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_17->setReadOnly(true);
         lineEdit_18 = new QLineEdit(groupBox);
@@ -210,8 +212,8 @@ public:
         lineEdit_18->setMinimumSize(QSize(25, 25));
         lineEdit_18->setMaximumSize(QSize(25, 25));
         lineEdit_18->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"color: rgb(255, 0, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"color: rgb(255, 0, 0);"));
         lineEdit_18->setReadOnly(true);
         lineEdit_19 = new QLineEdit(groupBox);
         lineEdit_19->setObjectName(QString::fromUtf8("lineEdit_19"));
@@ -219,7 +221,7 @@ public:
         lineEdit_19->setMinimumSize(QSize(25, 25));
         lineEdit_19->setMaximumSize(QSize(25, 25));
         lineEdit_19->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_19->setReadOnly(true);
         lineEdit_20 = new QLineEdit(groupBox);
@@ -228,7 +230,7 @@ public:
         lineEdit_20->setMinimumSize(QSize(25, 25));
         lineEdit_20->setMaximumSize(QSize(25, 25));
         lineEdit_20->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 0);\n"
-"font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
 "color: rgb(255, 0, 0);"));
         lineEdit_20->setReadOnly(true);
         currentlineEdit_2 = new QLineEdit(groupBox);
@@ -246,6 +248,7 @@ public:
         label_2 = new QLabel(groupBox);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(40, 106, 101, 16));
+        label_2->setStyleSheet(QString::fromUtf8("font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         label_3 = new QLabel(groupBox);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(20, 20, 54, 21));
@@ -289,6 +292,7 @@ public:
         dockWidget = new QDockWidget(centralwidget);
         dockWidget->setObjectName(QString::fromUtf8("dockWidget"));
         dockWidget->setGeometry(QRect(30, 280, 601, 311));
+        dockWidget->setStyleSheet(QString::fromUtf8(""));
         dockWidget->setFloating(false);
         dockWidgetContents_2 = new QWidget();
         dockWidgetContents_2->setObjectName(QString::fromUtf8("dockWidgetContents_2"));
@@ -296,7 +300,7 @@ public:
         seqDelView->setCentralWidget(centralwidget);
         menubar = new QMenuBar(seqDelView);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 664, 23));
+        menubar->setGeometry(QRect(0, 0, 664, 25));
         seqDelView->setMenuBar(menubar);
 
         retranslateUi(seqDelView);

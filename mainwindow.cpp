@@ -14,9 +14,50 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QImage seqImg(":/img/seqBig.png");
+    QImage linkImg(":/img/linkBig.png");
+    QImage queueImg(":/img/queueBig.png");
+    QImage stackImg(":/img/stackBig.png");
+    QImage treeImg(":/img/treeBig.png");
+    QImage graphImg(":/img/graphBig.png");
+
+    ui->SeqBigImg->setPixmap(QPixmap::fromImage(seqImg));
+    ui->SeqBigImg->setScaledContents(true);
+    ui->LinkBigImg->setPixmap(QPixmap::fromImage(linkImg));
+    ui->LinkBigImg->setScaledContents(true);
+    ui->QueueBigImg->setPixmap(QPixmap::fromImage(queueImg));
+    ui->QueueBigImg->setScaledContents(true);
+    ui->StackBigImg->setPixmap(QPixmap::fromImage(stackImg));
+    ui->StackBigImg->setScaledContents(true);
+    ui->TreeBigImg->setPixmap(QPixmap::fromImage(treeImg));
+    ui->TreeBigImg->setScaledContents(true);
+    ui->GraphBigImg->setPixmap(QPixmap::fromImage(graphImg));
+    ui->GraphBigImg->setScaledContents(true);
+
+
+    ui->seqDelButton->setStyleSheet("border-image: url(./img/seq.png) 0 0 0 0");//用图片填充按钮背景颜色
+    ui->seqInsButton->setStyleSheet("border-image: url(./img/seq.png) 0 0 0 0");
+    ui->seqUniButton->setStyleSheet("border-image: url(./img/seq.png) 0 0 0 0");
+
+    ui->linkCreatButton->setStyleSheet("border-image: url(./img/link.png) 0 0 0 0");
+    ui->linkDelButton->setStyleSheet("border-image: url(./img/link.png) 0 0 0 0");
+    ui->linkInsButton->setStyleSheet("border-image: url(./img/link.png) 0 0 0 0");
+
+    ui->circleQueueButton->setStyleSheet("border-image: url(./img/queue.png) 0 0 0 0");
+
+    ui->enterStackButton->setStyleSheet("border-image: url(./img/stack.png) 0 0 0 0");
+    ui->outStackButton->setStyleSheet("border-image: url(./img/stack.png) 0 0 0 0");
+
+    ui->bfsButton->setStyleSheet("border-image: url(./img/graph.png) 0 0 0 0");
+    ui->dfsButton->setStyleSheet("border-image: url(./img/graph.png) 0 0 0 0");
+
+    ui->MidButton->setStyleSheet("border-image: url(./img/tree.png) 0 0 0 0");
+    ui->proButton->setStyleSheet("border-image: url(./img/tree.png) 0 0 0 0");
+    ui->rearButton->setStyleSheet("border-image: url(./img/tree.png) 0 0 0 0");
+
     this->setWindowIcon(QIcon(":/img/bitbug_favicon.ico"));
     this->setStyleSheet("QMainWindow{background-image: url(:/img/CoverBackground1.jpg)}");
-    ui->tabWidget->setStyleSheet("QTabWidget:pane {border-top:0px solid #e8f3f9;background:  transparent; }");
+
 
     QObject::connect(ui->aboutAction,SIGNAL(triggered()),this,SLOT(aboutAction_slot()));
     QObject::connect(ui->helpAction,SIGNAL(triggered()),this,SLOT(helpAction_slot()));
@@ -47,7 +88,7 @@ void MainWindow::on_seqInsButton_clicked()//顺序表插入按钮 点击
 {
     bool ok;
     QString  Origin = QInputDialog::getText(this,
-                                            tr("顺序表"),
+                                            tr("顺序表插入"),
                                             tr("输入顺序表"),
                                             QLineEdit::Normal,
                                             "asdfqwer",
@@ -87,7 +128,7 @@ void MainWindow::on_seqDelButton_clicked()//顺序表删除按钮 点击
 {
     bool ok;
     QString  Origin = QInputDialog::getText(this,
-                                            tr("顺序表"),
+                                            tr("顺序表删除"),
                                             tr("输入顺序表"),
                                             QLineEdit::Normal,
                                             "asdfqwer",
@@ -112,7 +153,7 @@ void MainWindow::on_seqUniButton_clicked()//顺序表合并按钮 点击
 {
     bool ok;
     QString OriginOne=QInputDialog::getText(this,
-                                         tr("顺序表"),
+                                         tr("顺序表合并"),
                                          tr("请输入第一组数据"),
                                          QLineEdit::Normal,
                                          "13579",
@@ -121,7 +162,7 @@ void MainWindow::on_seqUniButton_clicked()//顺序表合并按钮 点击
         return;
     }
     QString OriginTwo=QInputDialog::getText(this,
-                                         tr("顺序表"),
+                                         tr("顺序表合并"),
                                          tr("请输入第二组数据"),
                                          QLineEdit::Normal,
                                          "2468",
@@ -140,7 +181,7 @@ void MainWindow::on_linkCreatButton_clicked()//链表创建按钮 头插法
 {
     bool ok;
     QString OriginOne=QInputDialog::getText(this,
-                                            tr("链表"),
+                                            tr("链表创建"),
                                             tr("请输入数据"),
                                             QLineEdit::Normal,
                                             "abcde",
@@ -158,7 +199,7 @@ void MainWindow::on_linkInsButton_clicked()//链表插入按钮
 {
     bool ok;
     QString Origin=QInputDialog::getText(this,
-                                         tr("链表"),
+                                         tr("链表插入"),
                                          tr("请输入数据"),
                                          QLineEdit::Normal,
                                          "abde",
@@ -199,7 +240,7 @@ void MainWindow::on_linkDelButton_clicked()//链表删除按钮
 {
     bool ok;
     QString Origin=QInputDialog::getText(this,
-                                         tr("链表"),
+                                         tr("链表删除"),
                                          tr("请输入数据"),
                                          QLineEdit::Normal,
                                          "abccde",
@@ -251,7 +292,7 @@ void MainWindow::on_outStackButton_clicked()//出栈按钮
 {
     bool ok;
     QString Origin=QInputDialog::getText(this,
-                                         tr("顺序栈入栈"),
+                                         tr("顺序栈出栈"),
                                          tr("请输入原始数据"),
                                          QLineEdit::Normal,
                                          "abcsdfqwer",

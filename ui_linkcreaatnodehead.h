@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'linkcreaatnodehead.ui'
 **
-** Created: Sat Mar 25 09:57:59 2017
+** Created: Sun Mar 26 09:07:49 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -204,7 +204,7 @@ public:
         ButtonBox->setGeometry(QRect(10, 10, 755, 80));
         layoutWidget_2 = new QWidget(ButtonBox);
         layoutWidget_2->setObjectName(QString::fromUtf8("layoutWidget_2"));
-        layoutWidget_2->setGeometry(QRect(120, 30, 541, 30));
+        layoutWidget_2->setGeometry(QRect(120, 30, 541, 35));
         horizontalLayout_2 = new QHBoxLayout(layoutWidget_2);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);

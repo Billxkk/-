@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
@@ -37,15 +40,15 @@
     </property>
     <property name="font">
      <font>
-      <family>Agency FB</family>
-      <pointsize>9</pointsize>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 9pt &quot;Agency FB&quot;;</string>
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
     </property>
     <property name="title">
      <string>演示区</string>
@@ -73,7 +76,7 @@
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="text">
@@ -106,7 +109,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -136,7 +139,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -166,7 +169,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -196,7 +199,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -226,8 +229,8 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-color: rgb(255, 0, 0);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -256,7 +259,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="text">
@@ -289,8 +292,8 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-color: rgb(255, 0, 0);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -319,7 +322,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -349,7 +352,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -379,9 +382,8 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
-color: rgb(255, 0, 0);
-</string>
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -410,7 +412,7 @@ color: rgb(255, 0, 0);
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -441,7 +443,7 @@ color: rgb(255, 0, 0);</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -471,7 +473,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -501,7 +503,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -531,7 +533,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -561,7 +563,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -591,7 +593,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -621,7 +623,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -651,7 +653,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -681,7 +683,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -711,7 +713,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -741,8 +743,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;
-</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -772,7 +773,7 @@ font: 10pt &quot;微软雅黑&quot;;
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(85, 255, 255);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -813,7 +814,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -841,7 +842,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -869,7 +870,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -897,7 +898,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -925,7 +926,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -953,7 +954,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -981,7 +982,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1009,7 +1010,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1037,7 +1038,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1065,7 +1066,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1093,7 +1094,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1121,7 +1122,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1149,7 +1150,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1177,7 +1178,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -1193,6 +1194,9 @@ font: 10pt &quot;微软雅黑&quot;;</string>
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
     <property name="title">
      <string>功能区</string>
     </property>
@@ -1202,7 +1206,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
        <x>80</x>
        <y>30</y>
        <width>541</width>
-       <height>30</height>
+       <height>35</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -1303,14 +1307,14 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
   <widget class="QDockWidget" name="dockWidget_2">
    <property name="minimumSize">
     <size>
-     <width>80</width>
+     <width>85</width>
      <height>290</height>
     </size>
    </property>

@@ -14,6 +14,7 @@ linkCreaatNodeHead::linkCreaatNodeHead(QWidget *parent) :
     pause=0;
     startSign=0;
     ft.setPointSize(20);
+
     currentColor.setColor(QPalette::WindowText,Qt::black);
     elseColor.setColor(QPalette::WindowText,Qt::white);
     redColor.setColor(QPalette::WindowText,Qt::red);

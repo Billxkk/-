@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="ButtonBox">
     <property name="geometry">
@@ -23,6 +26,9 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
     <property name="title">
      <string>功能区</string>
     </property>
@@ -32,7 +38,7 @@
        <x>30</x>
        <y>30</y>
        <width>541</width>
-       <height>25</height>
+       <height>35</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -149,15 +155,15 @@
     </property>
     <property name="font">
      <font>
-      <family>Agency FB</family>
-      <pointsize>9</pointsize>
+      <family>微软雅黑</family>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 9pt &quot;Agency FB&quot;;</string>
+     <string notr="true">font: 13pt &quot;微软雅黑&quot;;</string>
     </property>
     <property name="title">
      <string>演示区</string>
@@ -185,7 +191,7 @@
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="text">
@@ -218,7 +224,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -248,7 +254,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -278,7 +284,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -308,7 +314,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -338,8 +344,8 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-color: rgb(255, 0, 0);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -368,7 +374,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="text">
@@ -401,8 +407,8 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-color: rgb(255, 0, 0);
-font: 10pt &quot;微软雅黑&quot;;</string>
+font: 12pt &quot;微软雅黑&quot;;
+color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -431,7 +437,7 @@ font: 10pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -461,7 +467,7 @@ color: rgb(255, 0, 0);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 0);
-font: 10pt &quot;微软雅黑&quot;;
+font: 12pt &quot;微软雅黑&quot;;
 color: rgb(255, 0, 0);</string>
      </property>
      <property name="readOnly">
@@ -501,6 +507,9 @@ color: rgb(255, 0, 0);</string>
        <width>101</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
      <property name="text">
       <string>当前移动位数:</string>
@@ -676,6 +685,9 @@ color: rgb(255, 0, 0);</string>
       <height>311</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="floating">
      <bool>false</bool>
     </property>
@@ -691,7 +703,7 @@ color: rgb(255, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>664</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
