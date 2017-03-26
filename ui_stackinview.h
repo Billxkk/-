@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'stackinview.ui'
 **
-** Created: Sat Mar 25 09:57:59 2017
+** Created: Sun Mar 26 10:41:03 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -76,10 +76,11 @@ public:
     {
         if (stackInView->objectName().isEmpty())
             stackInView->setObjectName(QString::fromUtf8("stackInView"));
-        stackInView->resize(1197, 580);
+        stackInView->resize(1197, 644);
         groupBox = new QGroupBox(stackInView);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(20, 120, 650, 450));
+        groupBox->setGeometry(QRect(20, 120, 650, 501));
+        groupBox->setStyleSheet(QString::fromUtf8("font: 75 12pt \"Microsoft YaHei UI\";"));
         lineEdit_1 = new QLineEdit(groupBox);
         lineEdit_1->setObjectName(QString::fromUtf8("lineEdit_1"));
         lineEdit_1->setGeometry(QRect(13, 40, 25, 25));
@@ -136,7 +137,7 @@ public:
         currentlineEdit->setReadOnly(true);
         label = new QLabel(groupBox);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(60, 295, 80, 12));
+        label->setGeometry(QRect(40, 290, 111, 20));
         line = new QFrame(groupBox);
         line->setObjectName(QString::fromUtf8("line"));
         line->setGeometry(QRect(380, 120, 5, 290));
@@ -154,7 +155,7 @@ public:
         line_3->setFrameShadow(QFrame::Sunken);
         layoutWidget = new QWidget(groupBox);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(380, 150, 135, 256));
+        layoutWidget->setGeometry(QRect(380, 150, 135, 326));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -231,9 +232,10 @@ public:
         ButtonBox = new QGroupBox(stackInView);
         ButtonBox->setObjectName(QString::fromUtf8("ButtonBox"));
         ButtonBox->setGeometry(QRect(20, 20, 650, 80));
+        ButtonBox->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         layoutWidget_2 = new QWidget(ButtonBox);
         layoutWidget_2->setObjectName(QString::fromUtf8("layoutWidget_2"));
-        layoutWidget_2->setGeometry(QRect(30, 40, 581, 25));
+        layoutWidget_2->setGeometry(QRect(30, 40, 581, 35));
         horizontalLayout = new QHBoxLayout(layoutWidget_2);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -280,7 +282,7 @@ public:
 
         dockWidget = new QGroupBox(stackInView);
         dockWidget->setObjectName(QString::fromUtf8("dockWidget"));
-        dockWidget->setGeometry(QRect(680, 26, 500, 541));
+        dockWidget->setGeometry(QRect(680, 26, 500, 591));
 
         retranslateUi(stackInView);
 

@@ -30,6 +30,28 @@ DFS_Graph::DFS_Graph(QWidget *parent) :
      ui->lineEdit_9->setText("I");
      ui->lineEdit_10->setText("J");
 
+     QFont uiLabel("Microsoft YaHei", 12, 75);
+     ui->label->setFont(uiLabel);
+     ui->label_2->setFont(uiLabel);
+     ui->label_3->setFont(uiLabel);
+     ui->label_4->setFont(uiLabel);
+     ui->label_5->setFont(uiLabel);
+     ui->label_6->setFont(uiLabel);
+     ui->label_7->setFont(uiLabel);
+     ui->label_8->setFont(uiLabel);
+     ui->label_9->setFont(uiLabel);
+     ui->label_10->setFont(uiLabel);
+     ui->label_20->setFont(uiLabel);
+     ui->label_21->setFont(uiLabel);
+     ui->label_22->setFont(uiLabel);
+     ui->label_23->setFont(uiLabel);
+     ui->label_24->setFont(uiLabel);
+     ui->label_25->setFont(uiLabel);
+     ui->label_26->setFont(uiLabel);
+     ui->label_27->setFont(uiLabel);
+     ui->label_28->setFont(uiLabel);
+
+
      the1 = new QLabel(ui->groupBox);
      the1->setText("¡ü");
      the1->setGeometry(280,45,25,25);

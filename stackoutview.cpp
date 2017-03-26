@@ -17,7 +17,7 @@ stackOutView::stackOutView(QWidget *parent) :
     elseColor.setColor(QPalette::WindowText,Qt::white);
     redColor.setColor(QPalette::WindowText,Qt::red);
     blackColor = currentColor;
-    ft.setPointSize(12);//算法字符格式
+   QFont ft("Microsoft YaHei", 12, 75);
 
     ui->frashButton->setEnabled(false);
     ui->pauseButton->setEnabled(false);
@@ -76,57 +76,57 @@ stackOutView::stackOutView(QWidget *parent) :
     //算法语句
     word1 = new QLabel(ui->dockWidget);
     word1->setText("void  InseqStack(Sqstack v,Elem b)");
-    word1->setGeometry(10,10,1000,15);
+    word1->setGeometry(10,12,1000,15);
     word1->setFont(ft);
 
     word2 = new QLabel(ui->dockWidget);
     word2->setText("{");
-    word2->setGeometry(10,25,1000,15);
+    word2->setGeometry(10,29,1000,15);
     word2->setFont(ft);
 
     word3 = new QLabel(ui->dockWidget);
     word3->setText("     if(isEmpty(v)");
-    word3->setGeometry(10,40,1000,15);
+    word3->setGeometry(10,46,1000,15);
     word3->setFont(ft);
 
     word4 = new QLabel(ui->dockWidget);
     word4->setText("       return ERROR;");
-    word4->setGeometry(10,55,1000,15);
+    word4->setGeometry(10,63,1000,15);
     word4->setFont(ft);
 
     word5 = new QLabel(ui->dockWidget);
     word5->setText("     else");
-    word5->setGeometry(10,70,1000,15);
+    word5->setGeometry(10,80,1000,15);
     word5->setFont(ft);
 
     word6 = new QLabel(ui->dockWidget);
     word6->setText("         {");
-    word6->setGeometry(10,85,1000,15);
+    word6->setGeometry(10,97,1000,15);
     word6->setFont(ft);
 
     word7 = new QLabel(ui->dockWidget);
     word7->setText("             b=v.data[v.top];");
-    word7->setGeometry(10,100,1000,15);
+    word7->setGeometry(10,114,1000,15);
     word7->setFont(ft);
 
     word8 = new QLabel(ui->dockWidget);
     word8->setText("             v.top--;");
-    word8->setGeometry(10,115,1000,15);
+    word8->setGeometry(10,131,1000,15);
     word8->setFont(ft);
 
     word9 = new QLabel(ui->dockWidget);
     word9->setText("             return TRUE;");
-    word9->setGeometry(10,130,1000,15);
+    word9->setGeometry(10,148,1000,15);
     word9->setFont(ft);
 
     word10 = new QLabel(ui->dockWidget);
     word10->setText("         }");
-    word10->setGeometry(10,145,1000,15);
+    word10->setGeometry(10,165,1000,15);
     word10->setFont(ft);
 
     word11 = new QLabel(ui->dockWidget);
     word11->setText("}");
-    word11->setGeometry(10,160,1000,15);
+    word11->setGeometry(10,182,1000,15);
     word11->setFont(ft);
 }
 

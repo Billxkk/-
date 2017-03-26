@@ -61,27 +61,27 @@ seqDelView::seqDelView(QWidget *parent) :
     num8->setFont(ft);
 
     num9 = new QLabel(ui->dockWidget);
-    num9->setText("                v.elem[i]=b;");
+    num9->setText("               v.last=v.last-1;");
     num9->setGeometry(10,140,1000,15);
     num9->setFont(ft);
 
     num10= new QLabel(ui->dockWidget);
-    num10->setText("               v.last=v.last-1;");
+    num10->setText("               return OK;");
     num10->setGeometry(10,155,1000,15);
     num10->setFont(ft);
 
     num11= new QLabel(ui->dockWidget);
-    num11->setText("               return OK;");
+    num11->setText("             }");
     num11->setGeometry(10,170,1000,15);
     num11->setFont(ft);
 
     num12= new QLabel(ui->dockWidget);
-    num12->setText("             }");
+    num12->setText("}");
     num12->setGeometry(10,185,1000,15);
     num12->setFont(ft);
 
     num13 = new QLabel(ui->dockWidget);
-    num13->setText("}");
+    num13->setText("");
     num13->setGeometry(10,200,1000,15);
     num13->setFont(ft);
 }

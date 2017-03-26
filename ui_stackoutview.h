@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'stackoutview.ui'
 **
-** Created: Sat Mar 25 09:58:00 2017
+** Created: Sun Mar 26 10:50:53 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -77,9 +77,10 @@ public:
         ButtonBox = new QGroupBox(stackOutView);
         ButtonBox->setObjectName(QString::fromUtf8("ButtonBox"));
         ButtonBox->setGeometry(QRect(20, 20, 650, 80));
+        ButtonBox->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         layoutWidget = new QWidget(ButtonBox);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(20, 40, 601, 25));
+        layoutWidget->setGeometry(QRect(20, 40, 601, 35));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -127,6 +128,7 @@ public:
         groupBox = new QGroupBox(stackOutView);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(20, 120, 650, 450));
+        groupBox->setStyleSheet(QString::fromUtf8("font: 75 12pt \"Microsoft YaHei UI\";"));
         lineEdit_1 = new QLineEdit(groupBox);
         lineEdit_1->setObjectName(QString::fromUtf8("lineEdit_1"));
         lineEdit_1->setGeometry(QRect(400, 110, 113, 20));
@@ -233,7 +235,7 @@ public:
         currentlineEdit->setReadOnly(true);
         label = new QLabel(groupBox);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(80, 254, 80, 12));
+        label->setGeometry(QRect(50, 250, 111, 20));
         line = new QFrame(groupBox);
         line->setObjectName(QString::fromUtf8("line"));
         line->setGeometry(QRect(400, 90, 3, 320));
@@ -267,7 +269,7 @@ public:
         frashButton->setText(QApplication::translate("stackOutView", "\345\244\215\344\275\215", 0, QApplication::UnicodeUTF8));
         explainButton->setText(QApplication::translate("stackOutView", "\350\257\264\346\230\216", 0, QApplication::UnicodeUTF8));
         backButton->setText(QApplication::translate("stackOutView", "\350\277\224\345\233\236", 0, QApplication::UnicodeUTF8));
-        groupBox->setTitle(QApplication::translate("stackOutView", "GroupBox", 0, QApplication::UnicodeUTF8));
+        groupBox->setTitle(QApplication::translate("stackOutView", "\347\247\273\345\212\250\350\277\207\347\250\213\346\274\224\347\244\272", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("stackOutView", "\345\207\272\346\240\210\345\205\203\347\264\240\344\270\252\346\225\260\357\274\232", 0, QApplication::UnicodeUTF8));
         dockWidget->setTitle(QApplication::translate("stackOutView", "\347\256\227\346\263\225\345\214\272", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

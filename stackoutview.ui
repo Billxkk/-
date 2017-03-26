@@ -22,6 +22,9 @@
      <height>80</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
    <property name="title">
     <string>功能区</string>
    </property>
@@ -31,7 +34,7 @@
       <x>20</x>
       <y>40</y>
       <width>601</width>
-      <height>25</height>
+      <height>35</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -134,8 +137,11 @@
      <height>450</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Microsoft YaHei UI&quot;;</string>
+   </property>
    <property name="title">
-    <string>GroupBox</string>
+    <string>移动过程演示</string>
    </property>
    <widget class="QLineEdit" name="lineEdit_1">
     <property name="geometry">
@@ -473,10 +479,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>254</y>
-      <width>80</width>
-      <height>12</height>
+      <x>50</x>
+      <y>250</y>
+      <width>111</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">

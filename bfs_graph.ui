@@ -23,6 +23,9 @@
       <height>131</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
     <property name="title">
      <string>功能区</string>
     </property>
@@ -32,7 +35,7 @@
        <x>40</x>
        <y>30</y>
        <width>75</width>
-       <height>23</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -45,7 +48,7 @@
        <x>394</x>
        <y>30</y>
        <width>75</width>
-       <height>23</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -58,7 +61,7 @@
        <x>40</x>
        <y>80</y>
        <width>75</width>
-       <height>23</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -70,8 +73,8 @@
       <rect>
        <x>214</x>
        <y>30</y>
-       <width>75</width>
-       <height>23</height>
+       <width>91</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -83,8 +86,8 @@
       <rect>
        <x>214</x>
        <y>80</y>
-       <width>75</width>
-       <height>23</height>
+       <width>91</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -100,6 +103,9 @@
       <width>531</width>
       <height>381</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Microsoft YaHei UI&quot;;</string>
     </property>
     <property name="title">
      <string>广度优先搜索</string>
@@ -126,7 +132,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_5">
@@ -151,7 +157,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit">
@@ -199,7 +205,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_8">
@@ -224,7 +230,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_3">
@@ -249,7 +255,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="inforlineEdit">
@@ -284,7 +290,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_21">
@@ -322,7 +328,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_9">
@@ -347,7 +353,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_6">
@@ -372,7 +378,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_10">
@@ -397,7 +403,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
    </widget>
@@ -423,7 +429,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;void BFSTraverse(Graph G){&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -439,7 +445,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   for(v=1;v&lt;=G.num;++v)visited[v]=false; //标志数组初始化</string>
@@ -455,7 +461,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   InitQueue(Q);//初始化队列</string>
@@ -471,7 +477,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   for(v=1;v&lt;=G.num;++v)</string>
@@ -487,7 +493,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>     if(!visited[v]){</string>
@@ -503,7 +509,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>       visited[v] = true; visit(v);</string>
@@ -519,7 +525,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>       EnQueue(Q,v);</string>
@@ -535,7 +541,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>       while(!QueueEmpty(Q)){</string>
@@ -551,7 +557,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>         DeQueue(Q,v0);</string>
@@ -567,7 +573,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>         w = FirstADJ(G,v0);</string>
@@ -583,7 +589,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>         while(w){</string>
@@ -599,7 +605,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>           if(!visit[w]){</string>
@@ -615,7 +621,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>             visit(w);  visited[w]=true;</string>
@@ -631,7 +637,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>             EnQueue(Q,w);</string>
@@ -647,7 +653,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>            }</string>
@@ -663,7 +669,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>           w = NextADJ(G,v0,v);</string>
@@ -679,7 +685,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>          }</string>
@@ -695,7 +701,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>        }</string>
@@ -711,7 +717,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>      }</string>
@@ -727,7 +733,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>    }</string>

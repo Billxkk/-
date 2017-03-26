@@ -28,6 +28,7 @@ TreeProTravel::TreeProTravel(QWidget *parent) :
     ui->lineEdit_6->setText("F");
     ui->lineEdit_7->setText("G");
 
+            QFont uiLabel("Microsoft YaHei", 12, 75);
     ui->label_3->setText("void ProVisit( Tree *bt ){");
     ui->label_4->setText("         if( bt ){");
     ui->label_5->setText("               visit(bt);");
@@ -35,6 +36,14 @@ TreeProTravel::TreeProTravel(QWidget *parent) :
     ui->label_7->setText("               ProVisit( bt->rChild );");
     ui->label_8->setText("          }");
     ui->label_9->setText("   }");
+    ui->label_3->setFont(uiLabel);
+    ui->label_4->setFont(uiLabel);
+    ui->label_5->setFont(uiLabel);
+    ui->label_6->setFont(uiLabel);
+    ui->label_7->setFont(uiLabel);
+    ui->label_8->setFont(uiLabel);
+    ui->label_9->setFont(uiLabel);
+
 
 
     the1 = new QLabel(ui->groupBox);

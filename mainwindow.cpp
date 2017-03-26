@@ -86,6 +86,11 @@ void MainWindow::helpAction_slot()//帮助窗口
 
 void MainWindow::on_seqInsButton_clicked()//顺序表插入按钮 点击
 {
+
+     ui->seqInsButton->setStyleSheet("border-image: url(./img/seq-1.png) 0 0 0 0");
+     sleepSpeed();
+      ui->seqInsButton->setStyleSheet("border-image: url(./img/seq.png) 0 0 0 0");
+
     bool ok;
     QString  Origin = QInputDialog::getText(this,
                                             tr("顺序表插入"),
@@ -121,11 +126,15 @@ void MainWindow::on_seqInsButton_clicked()//顺序表插入按钮 点击
     seqInsview->elem=elem;
     seqInsview->show();
 
-
 }
 
 void MainWindow::on_seqDelButton_clicked()//顺序表删除按钮 点击
 {
+
+    ui->seqDelButton->setStyleSheet("border-image: url(./img/seq-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->seqDelButton->setStyleSheet("border-image: url(./img/seq.png) 0 0 0 0");
+
     bool ok;
     QString  Origin = QInputDialog::getText(this,
                                             tr("顺序表删除"),
@@ -151,6 +160,10 @@ void MainWindow::on_seqDelButton_clicked()//顺序表删除按钮 点击
 
 void MainWindow::on_seqUniButton_clicked()//顺序表合并按钮 点击
 {
+    ui->seqUniButton->setStyleSheet("border-image: url(./img/seq-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->seqUniButton->setStyleSheet("border-image: url(./img/seq.png) 0 0 0 0");
+
     bool ok;
     QString OriginOne=QInputDialog::getText(this,
                                          tr("顺序表合并"),
@@ -179,6 +192,10 @@ void MainWindow::on_seqUniButton_clicked()//顺序表合并按钮 点击
 
 void MainWindow::on_linkCreatButton_clicked()//链表创建按钮 头插法
 {
+    ui->linkCreatButton->setStyleSheet("border-image: url(./img/link-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->linkCreatButton->setStyleSheet("border-image: url(./img/link.png) 0 0 0 0");
+
     bool ok;
     QString OriginOne=QInputDialog::getText(this,
                                             tr("链表创建"),
@@ -197,6 +214,10 @@ void MainWindow::on_linkCreatButton_clicked()//链表创建按钮 头插法
 
 void MainWindow::on_linkInsButton_clicked()//链表插入按钮
 {
+    ui->linkInsButton->setStyleSheet("border-image: url(./img/link-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->linkInsButton->setStyleSheet("border-image: url(./img/link.png) 0 0 0 0");
+
     bool ok;
     QString Origin=QInputDialog::getText(this,
                                          tr("链表插入"),
@@ -238,6 +259,10 @@ void MainWindow::on_linkInsButton_clicked()//链表插入按钮
 
 void MainWindow::on_linkDelButton_clicked()//链表删除按钮
 {
+    ui->linkDelButton->setStyleSheet("border-image: url(./img/link-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->linkDelButton->setStyleSheet("border-image: url(./img/link.png) 0 0 0 0");
+
     bool ok;
     QString Origin=QInputDialog::getText(this,
                                          tr("链表删除"),
@@ -273,6 +298,10 @@ void MainWindow::on_linkDelButton_clicked()//链表删除按钮
 
 void MainWindow::on_enterStackButton_clicked()//入栈按钮
 {
+    ui->enterStackButton->setStyleSheet("border-image: url(./img/stack-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->enterStackButton->setStyleSheet("border-image: url(./img/stack.png) 0 0 0 0");
+
     bool ok;
     QString Origin=QInputDialog::getText(this,
                                          tr("顺序栈入栈"),
@@ -290,6 +319,10 @@ void MainWindow::on_enterStackButton_clicked()//入栈按钮
 
 void MainWindow::on_outStackButton_clicked()//出栈按钮
 {
+    ui->outStackButton->setStyleSheet("border-image: url(./img/stack-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->outStackButton->setStyleSheet("border-image: url(./img/stack.png) 0 0 0 0");
+
     bool ok;
     QString Origin=QInputDialog::getText(this,
                                          tr("顺序栈出栈"),
@@ -309,6 +342,10 @@ void MainWindow::on_outStackButton_clicked()//出栈按钮
 
 void MainWindow::on_circleQueueButton_clicked()//循环队列 入队出队
 {
+    ui->circleQueueButton->setStyleSheet("border-image: url(./img/queue-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->circleQueueButton->setStyleSheet("border-image: url(./img/queue.png) 0 0 0 0");
+
     circleQueue = new QueueEnter;
 
     circleQueue->show();
@@ -316,30 +353,59 @@ void MainWindow::on_circleQueueButton_clicked()//循环队列 入队出队
 
 void MainWindow::on_proButton_clicked()//树的先序遍历
 {
+    ui->proButton->setStyleSheet("border-image: url(./img/tree-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->proButton->setStyleSheet("border-image: url(./img/tree.png) 0 0 0 0");
+
     TreePro = new TreeProTravel;
     TreePro->show();
 }
 
 void MainWindow::on_MidButton_clicked()//树的中序遍历
 {
+    ui->MidButton->setStyleSheet("border-image: url(./img/tree-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->MidButton->setStyleSheet("border-image: url(./img/tree.png) 0 0 0 0");
+
     TreeMid = new TreeMidTravel;
     TreeMid->show();
 }
 
 void MainWindow::on_rearButton_clicked()//树的后序遍历
 {
+    ui->rearButton->setStyleSheet("border-image: url(./img/tree-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->rearButton->setStyleSheet("border-image: url(./img/tree.png) 0 0 0 0");
+
     TreeRear = new TreeRearTravel;
     TreeRear->show();
 }
 
 void MainWindow::on_dfsButton_clicked()//图的深度优先遍历
 {
+    ui->dfsButton->setStyleSheet("border-image: url(./img/graph-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->dfsButton->setStyleSheet("border-image: url(./img/graph.png) 0 0 0 0");
+
     dfs_graph = new DFS_Graph;
     dfs_graph->show();
 }
 
 void MainWindow::on_bfsButton_clicked()//图的广度优先遍历
 {
+    ui->bfsButton->setStyleSheet("border-image: url(./img/graph-1.png) 0 0 0 0");
+    sleepSpeed();
+     ui->bfsButton->setStyleSheet("border-image: url(./img/graph.png) 0 0 0 0");
+
     bfs_graph = new BFS_Graph;
     bfs_graph->show();
+}
+
+void MainWindow::sleepSpeed(int time)
+{
+    t.start();
+    while(t.elapsed()<time)
+    {
+        QCoreApplication::processEvents();
+    }
 }

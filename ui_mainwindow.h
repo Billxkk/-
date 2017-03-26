@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Sat Mar 25 23:53:46 2017
+** Created: Sun Mar 26 10:17:22 2017
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -60,7 +60,7 @@ public:
         MainWindow->resize(750, 469);
         MainWindow->setMinimumSize(QSize(750, 469));
         MainWindow->setMaximumSize(QSize(750, 469));
-        MainWindow->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
+        MainWindow->setStyleSheet(QString::fromUtf8("font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         aboutAction = new QAction(MainWindow);
         aboutAction->setObjectName(QString::fromUtf8("aboutAction"));
         helpAction = new QAction(MainWindow);
@@ -70,7 +70,7 @@ public:
         seqInsButton = new QPushButton(centralWidget);
         seqInsButton->setObjectName(QString::fromUtf8("seqInsButton"));
         seqInsButton->setGeometry(QRect(83, 102, 60, 54));
-        seqInsButton->setStyleSheet(QString::fromUtf8("font: 10pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
+        seqInsButton->setStyleSheet(QString::fromUtf8("font: 12pt \"\345\276\256\350\275\257\351\233\205\351\273\221\";"));
         seqInsButton->setFlat(true);
         seqDelButton = new QPushButton(centralWidget);
         seqDelButton->setObjectName(QString::fromUtf8("seqDelButton"));
@@ -147,7 +147,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 750, 25));
+        menuBar->setGeometry(QRect(0, 0, 750, 27));
         option = new QMenu(menuBar);
         option->setObjectName(QString::fromUtf8("option"));
         option->setMinimumSize(QSize(0, 0));

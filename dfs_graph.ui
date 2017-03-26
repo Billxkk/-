@@ -23,6 +23,9 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
     <property name="title">
      <string>功能区</string>
     </property>
@@ -32,7 +35,7 @@
        <x>30</x>
        <y>30</y>
        <width>541</width>
-       <height>30</height>
+       <height>35</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -135,6 +138,9 @@
       <height>281</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Microsoft YaHei UI&quot;;</string>
+    </property>
     <property name="title">
      <string>深度优先搜索</string>
     </property>
@@ -160,7 +166,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_3">
@@ -185,7 +191,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_6">
@@ -210,7 +216,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_1">
@@ -235,7 +241,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_7">
@@ -260,7 +266,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit">
@@ -308,7 +314,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_asdfasdf">
@@ -356,7 +362,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_4">
@@ -381,7 +387,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_8">
@@ -406,7 +412,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_10">
@@ -431,7 +437,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;宋体&quot;;</string>
+      <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
      </property>
     </widget>
    </widget>
@@ -457,7 +463,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>Boolean visited[MAX];//访问标志数组</string>
@@ -473,7 +479,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>void DFSTraverse(Graph G){</string>
@@ -489,7 +495,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   int i;</string>
@@ -505,7 +511,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   for(i=1;i&lt;=MAX;++i){</string>
@@ -521,7 +527,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>      visited[i] = false;//初始化</string>
@@ -537,7 +543,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   for(i=1;i&lt;=MAX;++i){</string>
@@ -553,7 +559,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>      if(!visited[i])</string>
@@ -569,7 +575,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>         DFS(G,i);</string>
@@ -585,7 +591,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>      }</string>
@@ -601,7 +607,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string> }</string>
@@ -630,7 +636,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>     }</string>
@@ -646,7 +652,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string> }</string>
@@ -662,7 +668,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   while(w){</string>
@@ -678,7 +684,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>     w = NextADJ(G,v,w);</string>
@@ -694,7 +700,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>void DFS(Graph G,int v)[</string>
@@ -710,7 +716,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   w = firstADJ(G,v);</string>
@@ -726,7 +732,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>       DFS(G,w);</string>
@@ -742,7 +748,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>   visited[v]=true; visit(v);</string>
@@ -758,7 +764,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>     if(!visited[w])</string>

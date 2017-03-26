@@ -30,6 +30,28 @@ BFS_Graph::BFS_Graph(QWidget *parent) :
     ui->lineEdit_9->setText("F");
     ui->lineEdit_10->setText("G");
 
+    QFont uiLabel("Microsoft YaHei", 12, 75);
+    ui->label->setFont(uiLabel);
+    ui->label_2->setFont(uiLabel);
+    ui->label_3->setFont(uiLabel);
+    ui->label_4->setFont(uiLabel);
+    ui->label_5->setFont(uiLabel);
+    ui->label_6->setFont(uiLabel);
+    ui->label_7->setFont(uiLabel);
+    ui->label_8->setFont(uiLabel);
+    ui->label_9->setFont(uiLabel);
+    ui->label_10->setFont(uiLabel);
+    ui->label_11->setFont(uiLabel);
+    ui->label_12->setFont(uiLabel);
+    ui->label_13->setFont(uiLabel);
+    ui->label_14->setFont(uiLabel);
+    ui->label_15->setFont(uiLabel);
+    ui->label_16->setFont(uiLabel);
+    ui->label_17->setFont(uiLabel);
+    ui->label_18->setFont(uiLabel);
+    ui->label_19->setFont(uiLabel);
+    ui->label_20->setFont(uiLabel);
+
     the1 = new QLabel(ui->groupBox);
     the1->setText("¡ü");
     the1->setGeometry(220,45,25,25);

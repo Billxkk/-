@@ -62,6 +62,9 @@ private:
     DFS_Graph *dfs_graph;
     BFS_Graph *bfs_graph;
 
+    QElapsedTimer t;
+    void sleepSpeed(int time = 100);
+
 
 
 private slots:

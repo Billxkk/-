@@ -26,7 +26,7 @@
    <string>title</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+   <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="seqInsButton">
@@ -39,7 +39,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
     </property>
     <property name="text">
      <string>插入</string>
@@ -347,7 +347,7 @@
      <x>0</x>
      <y>0</y>
      <width>750</width>
-     <height>25</height>
+     <height>27</height>
     </rect>
    </property>
    <widget class="QMenu" name="option">

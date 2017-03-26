@@ -28,6 +28,15 @@ TreeRearTravel::TreeRearTravel(QWidget *parent) :
     ui->lineEdit_6->setText("E");
     ui->lineEdit_7->setText("A");
 
+    QFont uiLabel("Microsoft YaHei", 12, 75);
+    ui->label_18->setFont(uiLabel);
+    ui->label_19->setFont(uiLabel);
+    ui->label_20->setFont(uiLabel);
+    ui->label_21->setFont(uiLabel);
+    ui->label_22->setFont(uiLabel);
+    ui->label_23->setFont(uiLabel);
+    ui->label_24->setFont(uiLabel);
+
 
     the7 = new QLabel(ui->groupBox);
     the7->setText("-->");

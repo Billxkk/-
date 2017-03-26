@@ -28,6 +28,16 @@ TreeMidTravel::TreeMidTravel(QWidget *parent) :
      ui->lineEdit_6->setText("E");
      ui->lineEdit_7->setText("G");
 
+     QFont uiLabel("Microsoft YaHei", 12, 75);
+     ui->label_3->setFont(uiLabel);
+     ui->label_4->setFont(uiLabel);
+     ui->label_5->setFont(uiLabel);
+     ui->label_6->setFont(uiLabel);
+     ui->label_7->setFont(uiLabel);
+     ui->label_8->setFont(uiLabel);
+     ui->label_9->setFont(uiLabel);
+
+
      the1 = new QLabel(ui->groupBox);
      the1->setText("-->");
      the1->setGeometry(175,140,30,25);

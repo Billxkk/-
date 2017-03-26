@@ -37,6 +37,7 @@ QueueEnter::QueueEnter(QWidget *parent) :
     ui->label_11->setPalette(disColor);
     ui->label_12->setPalette(disColor);
 
+        QFont uiLabel("Microsoft YaHei", 10, 75);
          ui->label->setText("Status enQueue( Queue *Q, elelm e){");
     ui->label_15->setText("   if(((Q.rear + 1) % MaxLen) == Q.front)");
     ui->label_16->setText("         return ERROR;");
@@ -52,6 +53,21 @@ QueueEnter::QueueEnter(QWidget *parent) :
     ui->label_32->setText("        Q->front = (Q->front+1)%MaxLen;");
     ui->label_33->setText("          }");
     ui->label_34->setText(" }");
+    ui->label->setFont(uiLabel);
+    ui->label_15->setFont(uiLabel);
+    ui->label_16->setFont(uiLabel);
+    ui->label_17->setFont(uiLabel);
+    ui->label_18->setFont(uiLabel);
+    ui->label_19->setFont(uiLabel);
+    ui->label_20->setFont(uiLabel);
+    ui->label_28->setFont(uiLabel);
+    ui->label_29->setFont(uiLabel);
+    ui->label_30->setFont(uiLabel);
+    ui->label_31->setFont(uiLabel);
+    ui->label_32->setFont(uiLabel);
+    ui->label_33->setFont(uiLabel);
+    ui->label_34->setFont(uiLabel);
+
 
 }
 
@@ -63,6 +79,8 @@ QueueEnter::~QueueEnter()
 void QueueEnter::paintEvent(QPaintEvent *event)//绘制演示区
 {
         QPainter painter(this);
+        QPen pen(Qt::green, 3, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
+        painter.setPen(pen);
         painter.drawEllipse(301, 213, 204, 210);//外圆
         painter.drawEllipse(340, 253, 129, 135);//内圆
         painter.drawLine(405,213,405,253);//顺时针线段
